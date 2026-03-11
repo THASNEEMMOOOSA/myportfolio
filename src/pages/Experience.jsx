@@ -283,8 +283,8 @@ export default function Experience() {
           Download my detailed resume for a comprehensive view of my experience and achievements.
         </p>
         <a
-          href="/cv/Thasneem_Vellarampara_CV.pdf"
-          download
+          href="/cv/THASNEEM_VELLARAMPARA_CV.pdf"
+          download='THASNEEM_VELLARAMPARA_CV'
           className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
         >
           <Briefcase size={18} />

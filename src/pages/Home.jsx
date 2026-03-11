@@ -70,8 +70,8 @@ export default function Home() {
 
           {/* DOWNLOAD CV BUTTON - NEW */}
           <a
-            href="/cv/Thasneem_Vellarampara_CV.pdf"
-            download="Thasneem_Vellarampara_CV.pdf"
+            href="/cv/THASNEEM_VELLARAMPARA_CVpdf"
+            download="THASNEEM_VELLARAMPARA_CV.pdf"
             className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
           >
             <Download size={18} />
@@ -214,8 +214,8 @@ export default function Home() {
           Download my detailed resume to see my complete work history, certifications, and technical skills.
         </p>
         <a
-          href="/cv/Thasneem_Vellarampara_CV.pdf"
-          download="Thasneem_Vellarampara_CV.pdf"
+          href="/cv/THASNEEM_VELLARAMPARA_CV.pdf"
+          download="THASNEEM_VELLARAMPARA_CV.pdf"
           
           className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
         >

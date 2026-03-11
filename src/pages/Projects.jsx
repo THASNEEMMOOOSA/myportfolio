@@ -262,7 +262,7 @@ export default function Projects() {
           I'm currently available for freelance opportunities and full-time positions.
         </p>
         <a 
-          href="/contact" 
+          href="/contact/" 
           className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
         >
           Let's Discuss Your Project <TrendingUp size={18} />
