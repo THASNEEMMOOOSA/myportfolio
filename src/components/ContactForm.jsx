@@ -18,7 +18,7 @@ export default function ContactForm() {
         import.meta.env.VITE_EMAILJS_SERVICE_ID,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         formRef.current,
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+        'SUKIfi_b0-pYq2Gu1'
       );
 
       if (result.text === 'OK') {
