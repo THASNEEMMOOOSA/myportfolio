@@ -1,16 +1,130 @@
-# React + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive personal portfolio website built using **React** and **Vite**. The project showcases my work, technical skills, and contact information, and includes a functional contact form integrated with **EmailJS** for direct email communication.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Demo
 
-## React Compiler
+View the live portfolio:
+https://myportfolio-two-topaz-79.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Portfolio Screenshot](./preview.png)
+
+---
+
+## Tech Stack
+
+* React
+* Vite
+* CSS / Tailwind CSS / SCSS *(adjust depending on what you used)*
+* EmailJS
+* Responsive Web Design
+
+---
+
+## Features
+
+* Responsive layout for desktop, tablet, and mobile devices
+* Project showcase section
+* Skills and technologies section
+* Contact form integrated with EmailJS
+* Fast development and build process with Vite
+* Clean and modular component structure
+
+---
+
+## Project Structure
+
+```
+portfolio/
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── sections/
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── .env
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## Installation and Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/portfolio.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## EmailJS Configuration
+
+1. Create an account at https://www.emailjs.com
+2. Create an Email Service and an Email Template
+3. Obtain the following credentials:
+
+   * Service ID
+   * Template ID
+   * Public Key
+
+Add them to a `.env` file in the project root:
+
+```
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+---
+
+## Production Build
+
+To build the project for production:
+
+```bash
+npm run build
+```
+
+To preview the production build:
+
+```bash
+npm run preview
+```
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
