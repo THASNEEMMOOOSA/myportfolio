@@ -15,8 +15,8 @@ export default function ContactForm() {
 
     try {
       const result = await emailjs.sendForm(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        'service_854mzku',
+        'template_18mvkx8',
         formRef.current,
         'SUKIfi_b0-pYq2Gu1'
       );
