@@ -116,7 +116,7 @@ export default function Contact() {
           <div className="mt-6 pt-6 border-t border-gray-700">
                       <a 
   href="/cv/THASNEEM_VELLARAMPARA_CV.pdf" 
-  download="THASNEEM_VELLARAMPARA_CV.pdf"
+  download
   className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg font-bold inline-flex items-center gap-2"
 >
   <Download size={18} />

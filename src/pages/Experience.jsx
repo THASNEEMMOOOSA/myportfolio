@@ -284,7 +284,7 @@ export default function Experience() {
         </p>
         <a
           href="/cv/THASNEEM_VELLARAMPARA_CV.pdf"
-          download='THASNEEM_VELLARAMPARA_CV'
+          download
           className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
         >
           <Briefcase size={18} />

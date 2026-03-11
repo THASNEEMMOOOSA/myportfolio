@@ -71,7 +71,7 @@ export default function Home() {
           {/* DOWNLOAD CV BUTTON - NEW */}
           <a
             href="/cv/THASNEEM_VELLARAMPARA_CVpdf"
-            download="THASNEEM_VELLARAMPARA_CV.pdf"
+            download
             className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
           >
             <Download size={18} />
@@ -215,7 +215,7 @@ export default function Home() {
         </p>
         <a
           href="/cv/THASNEEM_VELLARAMPARA_CV.pdf"
-          download="THASNEEM_VELLARAMPARA_CV.pdf"
+          download
           
           className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
         >
