@@ -1,5 +1,8 @@
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Send, Globe, Download, Calendar } from 'lucide-react';
+import ContactForm from '../components/ContactForm';
+
+
 
 export default function Contact() {
   return (
@@ -104,63 +107,10 @@ export default function Contact() {
         >
           <h2 className="text-2xl font-bold mb-6">Send a Message</h2>
           
-          <form className="space-y-4">
-            <div className="grid grid-cols-2 gap-4">
-              <div>
-                <label className="block text-sm text-gray-400 mb-2">First Name</label>
-                <input
-                  type="text"
-                  className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-500 transition-colors"
-                  placeholder="John"
-                />
-              </div>
-              <div>
-                <label className="block text-sm text-gray-400 mb-2">Last Name</label>
-                <input
-                  type="text"
-                  className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-500 transition-colors"
-                  placeholder="Doe"
-                />
-              </div>
-            </div>
 
-            <div>
-              <label className="block text-sm text-gray-400 mb-2">Email</label>
-              <input
-                type="email"
-                className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-500 transition-colors"
-                placeholder="john@example.com"
-              />
-            </div>
-
-            <div>
-              <label className="block text-sm text-gray-400 mb-2">Company</label>
-              <input
-                type="text"
-                className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-500 transition-colors"
-                placeholder="Your Company"
-              />
-            </div>
-
-            <div>
-              <label className="block text-sm text-gray-400 mb-2">Message</label>
-              <textarea
-                rows="4"
-                className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-500 transition-colors"
-                placeholder="Tell me about your opportunity..."
-              ></textarea>
-            </div>
-
-            <button
-              type="submit"
-              className="w-full group relative overflow-hidden bg-gradient-to-r from-blue-600 to-purple-600 text-white py-4 rounded-lg font-semibold"
-            >
-              <span className="relative z-10 flex items-center justify-center gap-2">
-                Send Message <Send size={18} className="group-hover:translate-x-1 transition-transform" />
-              </span>
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-            </button>
-          </form>
+<div className="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-gray-700">
+  <ContactForm />
+</div>
 
           {/* Download CV */}
           <div className="mt-6 pt-6 border-t border-gray-700">
