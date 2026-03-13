@@ -1,15 +1,8 @@
-import { useRef, useState } from 'react';
+import { useRef, useState, useEffect } from 'react'; // Make sure useEffect is imported
 import emailjs from '@emailjs/browser';
 import { useTranslation } from 'react-i18next';
 import { Send, CheckCircle, AlertCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
-
-useEffect(() => {
-  console.log('EmailJS Config Check:');
-  console.log('Service ID:', import.meta.env.VITE_EMAILJS_SERVICE_ID ? '✅' : '❌');
-  console.log('Template ID:', import.meta.env.VITE_EMAILJS_TEMPLATE_ID ? '✅' : '❌');
-  console.log('Public Key:', import.meta.env.VITE_EMAILJS_PUBLIC_KEY ? '✅' : '❌');
-}, []);
 
 export default function ContactForm() {
   const { t } = useTranslation(['contact', 'common']);
@@ -17,18 +10,51 @@ export default function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [status, setStatus] = useState({ type: '', message: '' });
 
+  // ✅ Move useEffect INSIDE the component
+  useEffect(() => {
+    console.log('EmailJS Config Check:');
+    console.log('Service ID:', import.meta.env.VITE_EMAILJS_SERVICE_ID ? '✅' : '❌');
+    console.log('Template ID:', import.meta.env.VITE_EMAILJS_TEMPLATE_ID ? '✅' : '❌');
+    console.log('Public Key:', import.meta.env.VITE_EMAILJS_PUBLIC_KEY ? '✅' : '❌');
+    
+    // Alert for missing variables (helpful for debugging)
+    if (!import.meta.env.VITE_EMAILJS_SERVICE_ID || 
+        !import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 
+        !import.meta.env.VITE_EMAILJS_PUBLIC_KEY) {
+      console.warn('⚠️ EmailJS environment variables are missing!');
+    }
+  }, []); // Empty dependency array = runs once when component mounts
+
   const sendEmail = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
     setStatus({ type: '', message: '' });
 
+    // Check if environment variables exist before sending
+    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
+    if (!serviceId || !templateId || !publicKey) {
+      setStatus({
+        type: 'error',
+        message: 'EmailJS configuration is missing. Please check environment variables.'
+      });
+      setIsSubmitting(false);
+      return;
+    }
+
     try {
+      console.log('Sending email with:', { serviceId, templateId }); // Debug log
+      
       const result = await emailjs.sendForm(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        serviceId,
+        templateId,
         formRef.current,
-        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+        publicKey
       );
+
+      console.log('EmailJS Result:', result); // Debug log
 
       if (result.status === 200) {
         setStatus({
@@ -40,11 +66,26 @@ export default function ContactForm() {
         setTimeout(() => {
           setStatus({ type: '', message: '' });
         }, 5000);
+      } else {
+        throw new Error('Unexpected response');
       }
     } catch (error) {
+      console.error('EmailJS Error:', error); // Debug log
+      
+      // More specific error message
+      let errorMessage = t('common:status.error');
+      
+      if (error.text === 'Invalid service_id') {
+        errorMessage = 'Service ID is incorrect. Please check EmailJS configuration.';
+      } else if (error.text === 'Invalid template_id') {
+        errorMessage = 'Template ID is incorrect. Please check EmailJS configuration.';
+      } else if (error.text === 'Invalid public key') {
+        errorMessage = 'Public key is invalid. Please check EmailJS configuration.';
+      }
+      
       setStatus({
         type: 'error',
-        message: t('common:status.error')
+        message: errorMessage
       });
     } finally {
       setIsSubmitting(false);
@@ -53,6 +94,17 @@ export default function ContactForm() {
 
   return (
     <div className="space-y-6">
+      {/* Debug info - remove after confirming it works on Vercel */}
+      <div className="text-xs text-gray-500 bg-gray-800 p-2 rounded mb-2">
+        EmailJS: {
+          import.meta.env.VITE_EMAILJS_SERVICE_ID ? '✅' : '❌'
+        } {
+          import.meta.env.VITE_EMAILJS_TEMPLATE_ID ? '✅' : '❌'
+        } {
+          import.meta.env.VITE_EMAILJS_PUBLIC_KEY ? '✅' : '❌'
+        }
+      </div>
+
       {status.type === 'success' && (
         <motion.div 
           initial={{ opacity: 0, y: -10 }}
