@@ -1,0 +1,63 @@
+{
+  "title": "Education & Qualifications",
+  "subtitle": "Academic background and professional certifications in Computer Science and Engineering",
+  "stats": {
+    "degrees": "Degrees",
+    "certifications": "Certifications",
+    "subjects": "Subjects",
+    "cgpa": "CGPA"
+  },
+  "academicJourney": "Academic Journey",
+  "btech": {
+    "degree": "BACHELOR OF TECHNOLOGY IN COMPUTER SCIENCE & ENGINEERING",
+    "institution": "Glocal University",
+    "location": "Saharanpur, UP, India",
+    "period": "2018 - 2022",
+    "score": "CGPA: 8.2/10",
+    "achievements": [
+      "Specialized in Computer Science and Engineering",
+      "Completed major projects in web development and data analytics",
+      "Active participant in technical workshops and hackathons"
+    ]
+  },
+  "higherSecondary": {
+    "degree": "HIGHER SECONDARY",
+    "institution": "MIC HSS Athanikkal",
+    "location": "Athanikkal, Kerala, India",
+    "period": "2018",
+    "score": "Completed with distinction",
+    "achievements": [
+      "Science stream with Computer Science as elective",
+      "Participated in school-level tech competitions",
+      "Strong foundation in mathematics and programming"
+    ]
+  },
+  "coreCurriculum": "Core Curriculum",
+  "curriculum": {
+    "core": "Core CS",
+    "math": "Mathematics",
+    "development": "Development",
+    "data": "Data Science"
+  },
+  "subjects": {
+    "core": ["Data Structures", "Algorithms", "OOP", "DBMS", "OS", "Networking"],
+    "math": ["Calculus", "Linear Algebra", "Statistics", "Discrete Math"],
+    "development": ["Web Dev", "Mobile Dev", "API Design", "Database Design"],
+    "data": ["Data Analytics", "Machine Learning", "Visualization"]
+  },
+  "professionalCerts": "Professional Certifications",
+  "certifications": [
+    {
+      "title": "Architecting with Google Compute Engine",
+      "issuer": "Google Cloud",
+      "year": "2023"
+    },
+    {
+      "title": "VR/AR with Fusion 360 Workshop",
+      "issuer": "Autodesk",
+      "year": "2022"
+    }
+  ],
+  "continuousLearner": "Continuous Learner",
+  "learnerDesc": "Passionate about staying updated with the latest technologies. Currently expanding knowledge in Cloud Computing, AI/ML, and Web3 technologies."
+}

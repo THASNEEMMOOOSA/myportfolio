@@ -1,19 +1,21 @@
 import { Link, Outlet, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Home, Briefcase, Code, User, Mail, Award ,GraduationCap} from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import { Home, Briefcase, Code, Mail, Award, GraduationCap } from 'lucide-react';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const navItems = [
-  { path: '/', icon: Home, label: 'Home' },
-  { path: '/projects', icon: Briefcase, label: 'Projects' },
-  { path: '/experience', icon: Award, label: 'Experience' },
-  { path: '/education', icon: GraduationCap, label: 'Education' }, // NEW
-
-  { path: '/skills', icon: Code, label: 'Skills' },
-  { path: '/contact', icon: Mail, label: 'Contact' },
+  { path: '/', icon: Home, key: 'home' },
+  { path: '/projects', icon: Briefcase, key: 'projects' },
+  { path: '/experience', icon: Award, key: 'experience' },
+  { path: '/education', icon: GraduationCap, key: 'education' },
+  { path: '/skills', icon: Code, key: 'skills' },
+  { path: '/contact', icon: Mail, key: 'contact' },
 ];
 
 export default function Layout() {
   const location = useLocation();
+  const { t } = useTranslation('common');
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900">
@@ -31,8 +33,8 @@ export default function Layout() {
             <Link to="/" className="text-xl font-bold gradient-text">
               TV<span className="text-gray-500">.</span>
             </Link>
-            <div className="flex gap-1">
-              {navItems.map(({ path, icon: Icon, label }) => (
+            <div className="flex items-center gap-2">
+              {navItems.map(({ path, icon: Icon, key }) => (
                 <Link
                   key={path}
                   to={path}
@@ -51,10 +53,11 @@ export default function Layout() {
                   )}
                   <span className="relative flex items-center gap-2">
                     <Icon size={18} />
-                    <span className="hidden md:inline">{label}</span>
+                    <span className="hidden md:inline">{t(`nav.${key}`)}</span>
                   </span>
                 </Link>
               ))}
+              <LanguageSwitcher />
             </div>
           </div>
         </div>

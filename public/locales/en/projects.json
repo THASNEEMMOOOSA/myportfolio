@@ -1,0 +1,82 @@
+{
+  "title": "Professional Projects",
+  "subtitle": "Enterprise-grade solutions demonstrating full-stack expertise, data analytics capabilities, and mobile development proficiency.",
+  "stats": {
+    "total": "Total Projects",
+    "technologies": "Technologies",
+    "categories": "Categories",
+    "years": "Years Delivering"
+  },
+  "categories": {
+    "fullstack": "Full-Stack",
+    "data": "Data/IoT",
+    "enterprise": "Enterprise",
+    "analytics": "Analytics",
+    "mobile": "Mobile",
+    "web": "Web Application"
+  },
+  "featured": "Featured",
+  "projects": {
+    "ecommerce": {
+      "title": "E-Commerce Platform",
+      "description": "Full-stack e-commerce solution with payment integration, real-time inventory, and analytics dashboard.",
+      "longDesc": "Built a scalable e-commerce platform handling 1000+ daily users. Implemented secure payment processing with Stripe & Razorpay, real-time inventory management, and comprehensive sales analytics dashboard with predictive insights.",
+      "tech": ["Django", "React", "PostgreSQL", "Stripe", "Redis", "Docker", "AWS"],
+      "metrics": ["99.9% Uptime", "5 Payment Methods", "10k+ Products"]
+    },
+    "iot": {
+      "title": "IoT Data Monitoring System",
+      "description": "Real-time IoT device monitoring and analytics platform for industrial applications.",
+      "longDesc": "Developed a scalable system to collect, process, and visualize data from 1000+ IoT devices in real-time. Built custom WebSocket APIs for device communication, implemented anomaly detection algorithms, and created interactive monitoring dashboards.",
+      "tech": ["Python", "Flask", "PostgreSQL", "WebSocket", "Chart.js", "MQTT", "InfluxDB"],
+      "metrics": ["1000+ Devices", "<100ms Latency", "99.5% Accuracy"]
+    },
+    "pos": {
+      "title": "POS Billing System",
+      "description": "Enterprise retail management system with inventory tracking and advanced analytics.",
+      "longDesc": "Created a comprehensive POS system for retail chains featuring inventory management, automated billing, dynamic tax calculation, discount processing, supplier management, and detailed sales reports with predictive restocking alerts.",
+      "tech": ["Django", "React", "PostgreSQL", "Tailwind", "Redux", "Redis", "Nginx"],
+      "metrics": ["40% Faster Billing", "500+ Transactions/Day", "98% Accuracy"]
+    },
+    "analytics": {
+      "title": "Sales Analytics Dashboard",
+      "description": "Enterprise-grade BI dashboard for sales performance tracking and forecasting.",
+      "longDesc": "Designed and implemented a comprehensive sales analytics dashboard integrating multiple data sources (SQL, Excel, APIs). Features include real-time KPI tracking, predictive analytics using ML models, custom report generation, and automated insight delivery.",
+      "tech": ["Power BI", "SQL", "Python", "Excel", "Tableau", "DAX", "Power Query"],
+      "metrics": ["15+ KPIs", "5 Data Sources", "Daily Updates"]
+    },
+    "mobile": {
+      "title": "Mobile Payment Application",
+      "description": "Cross-platform mobile application with secure in-app payments and real-time sync.",
+      "longDesc": "Built a Flutter-based mobile application for Android/iOS with integrated payment processing (Stripe, Razorpay), biometric authentication, real-time data synchronization using Firebase, and offline-first architecture for seamless user experience.",
+      "tech": ["Flutter", "Dart", "Firebase", "Stripe", "GetX", "SQLite", "BLoC"],
+      "metrics": ["2 Platforms", "Secure Biometric", "Offline Mode"]
+    },
+    "employee": {
+      "title": "Employee Management System",
+      "description": "Comprehensive HR management platform with role-based access and payroll integration.",
+      "longDesc": "Developed a full-featured employee management system featuring secure CRUD operations, role-based access control (RBAC), attendance tracking with facial recognition, payroll integration, performance review workflows, and automated report generation.",
+      "tech": ["Django", "MySQL", "React", "JWT", "Bootstrap", "Celery", "Redis"],
+      "metrics": ["RBAC", "500+ Users", "Cloud Deployed"]
+    },
+    "realestate": {
+      "title": "Real Estate Listing Platform",
+      "description": "Property management and listing platform with advanced search and virtual tours.",
+      "longDesc": "Built a real estate platform featuring property listings, advanced search filters, interactive maps, virtual tour integration, agent dashboards, lead management, and automated email notifications for new listings matching user criteria.",
+      "tech": ["Django", "React", "PostgreSQL", "Mapbox", "Elasticsearch", "Redis"],
+      "metrics": ["1000+ Listings", "Advanced Search", "Virtual Tours"]
+    },
+    "task": {
+      "title": "Task Management Application",
+      "description": "Productivity-focused mobile app with task organization and team collaboration.",
+      "longDesc": "Designed a cross-platform task management application supporting task creation, categorization, priority setting, deadline tracking, team collaboration features, real-time updates, and offline data persistence with cloud sync.",
+      "tech": ["Flutter", "Dart", "Firebase", "SQLite", "Provider", "Push Notifications"],
+      "metrics": ["Offline First", "Real-time Sync", "Team Collaboration"]
+    }
+  },
+  "cta": {
+    "title": "Interested in collaborating?",
+    "description": "I'm currently available for freelance opportunities and full-time positions.",
+    "button": "Let's Discuss Your Project"
+  }
+}

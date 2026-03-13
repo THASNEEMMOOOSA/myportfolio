@@ -1,0 +1,34 @@
+{
+  "title": "Let's Connect",
+  "subtitle": "Open to relocation, visa sponsorship, and exciting opportunities worldwide",
+  "info": {
+    "title": "Contact Information",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "visa": "Visa Status",
+    "visaStatus": "Open to visa sponsorship",
+    "relocation": "Available for international relocation"
+  },
+  "social": {
+    "title": "Social Profiles"
+  },
+  "form": {
+    "title": "Send a Message",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "company": "Company",
+    "message": "Message",
+    "firstNamePlaceholder": "John",
+    "lastNamePlaceholder": "Doe",
+    "emailPlaceholder": "john@example.com",
+    "companyPlaceholder": "Your Company",
+    "messagePlaceholder": "Tell me about your opportunity...",
+    "required": "Required"
+  },
+  "availability": {
+    "available": "Available for opportunities",
+    "details": "Open to remote, relocation, and visa sponsorship"
+  }
+}

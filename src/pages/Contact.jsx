@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Send, Globe, Download, Calendar } from 'lucide-react';
 import ContactForm from '../components/ContactForm';
 
-
+import { SiX } from "react-icons/si";
 
 export default function Contact() {
   return (
@@ -79,19 +79,24 @@ export default function Contact() {
           <div className="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-gray-700">
             <h2 className="text-2xl font-bold mb-6">Social Profiles</h2>
             <div className="grid grid-cols-2 gap-4">
-              <a href="#" className="flex items-center gap-3 p-3 bg-gray-700/50 rounded-lg hover:bg-gray-700 transition-colors">
+              <a href="https://github.com/THASNEEMMOOOSA/myportfolio.git" target="_blank" className="flex items-center gap-3 p-3 bg-gray-700/50 rounded-lg hover:bg-gray-700 transition-colors">
                 <Github size={20} className="text-gray-400" />
                 <span>GitHub</span>
               </a>
-              <a href="#" className="flex items-center gap-3 p-3 bg-gray-700/50 rounded-lg hover:bg-gray-700 transition-colors">
+              <a href="https://www.linkedin.com/in/thasneem-moosa-b045712a5" target="_blank" className="flex items-center gap-3 p-3 bg-gray-700/50 rounded-lg hover:bg-gray-700 transition-colors">
                 <Linkedin size={20} className="text-blue-400" />
                 <span>LinkedIn</span>
               </a>
-              <a href="#" className="flex items-center gap-3 p-3 bg-gray-700/50 rounded-lg hover:bg-gray-700 transition-colors">
-                <Twitter size={20} className="text-blue-300" />
-                <span>Twitter</span>
-              </a>
-              <a href="https://thasneemmoosa5000.pythonanywhere.com/" target="_blank" className="flex items-center gap-3 p-3 bg-gray-700/50 rounded-lg hover:bg-gray-700 transition-colors">
+            
+
+                <a
+                  href="https://x.com/Thasneem_Moosa"
+                  className="flex items-center gap-3 p-3 bg-gray-700/50 rounded-lg hover:bg-gray-700 transition-colors"
+                  target="_blank">
+                  <SiX size={20} className="text-blue-300" />
+                  <span>X</span>
+                </a>
+              <a href="https://myportfolio-two-topaz-79.vercel.app/" target="_blank" className="flex items-center gap-3 p-3 bg-gray-700/50 rounded-lg hover:bg-gray-700 transition-colors">
                 <Globe size={20} className="text-green-400" />
                 <span>Portfolio</span>
               </a>

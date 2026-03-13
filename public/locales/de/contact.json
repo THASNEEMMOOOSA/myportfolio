@@ -1,0 +1,33 @@
+{
+  "title": "Kontakt aufnehmen",
+  "subtitle": "Offen für Relokalisierung, Visasponsoring und spannende Möglichkeiten weltweit",
+  "info": {
+    "title": "Kontaktinformationen",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "location": "Standort",
+    "visa": "Visastatus",
+    "visaStatus": "Offen für Visasponsoring",
+    "relocation": "Verfügbar für internationale Relokalisierung"
+  },
+  "social": {
+    "title": "Soziale Profile"
+  },
+  "form": {
+    "title": "Nachricht senden",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "company": "Unternehmen",
+    "message": "Nachricht",
+    "firstNamePlaceholder": "Max",
+    "lastNamePlaceholder": "Mustermann",
+    "emailPlaceholder": "max@example.com",
+    "companyPlaceholder": "Ihr Unternehmen",
+    "messagePlaceholder": "Erzählen Sie mir von Ihrer Möglichkeit..."
+  },
+  "availability": {
+    "available": "Verfügbar für Möglichkeiten",
+    "details": "Offen für Remote-Arbeit, Relokalisierung und Visasponsoring"
+  }
+}

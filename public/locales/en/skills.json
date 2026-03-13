@@ -1,0 +1,67 @@
+{
+  "title": "Technical Arsenal",
+  "subtitle": "20+ technologies across full-stack development, data analytics, and mobile development",
+  "categories": {
+    "languages": "Programming Languages",
+    "backend": "Backend Development",
+    "frontend": "Frontend Development",
+    "mobile": "Mobile Development",
+    "databases": "Databases",
+    "data": "Data Analytics",
+    "cloud": "Cloud & DevOps",
+    "payment": "Payment & E-commerce",
+    "ai": "AI & Machine Learning",
+    "cybersecurity": "Cybersecurity"
+  },
+  "proficiency": {
+    "expert": "Expert",
+    "advanced": "Advanced",
+    "intermediate": "Intermediate",
+    "learning": "Learning"
+  },
+  "proficiencyLevels": {
+    "expert": ["Python", "Django", "React", "SQL", "Power BI"],
+    "advanced": ["Flutter", "AWS", "PostgreSQL", "Tableau"],
+    "intermediate": ["TensorFlow", "Docker", "MongoDB"],
+    "learning": ["Web3", "Solidity", "Kubernetes"]
+  },
+  "skills": {
+    "languages": ["Python", "SQL", "JavaScript", "TypeScript", "Dart", "Java", "C++", "R", "PHP"],
+    "backend": ["Django", "Flask", "FastAPI", "REST APIs", "GraphQL", "Node.js", "Laravel", ".NET"],
+    "frontend": ["React.js", "Next.js", "HTML5", "CSS3", "Tailwind", "Bootstrap", "Vue.js"],
+    "mobile": ["Flutter", "Dart", "Firebase", "SQLite", "GetX", "Riverpod"],
+    "databases": ["PostgreSQL", "MySQL", "MongoDB", "SQLite", "Redis", "Firebase"],
+    "data": ["Power BI", "Tableau", "Pandas", "NumPy", "ETL", "Data Modeling", "Excel", "R"],
+    "cloud": ["AWS", "Google Cloud", "Azure", "Docker", "Git", "CI/CD", "Vercel", "Netlify"],
+    "payment": ["Stripe", "Razorpay", "PayPal", "Shopify", "Payment Gateways"],
+    "ai": ["Scikit-learn", "TensorFlow", "PyTorch", "LLMs", "NLP", "Computer Vision"],
+    "cybersecurity": ["Kali Linux", "Penetration Testing", "Secure Auth", "JWT", "OAuth"]
+  },
+  "coreCompetencies": "Core Competencies",
+  "languageProficiency": "Language Proficiency",
+  "nativeFluent": "Native & Fluent",
+  "intermediateBasic": "Intermediate & Basic",
+  "motherTongue": "Mother Tongue",
+  "fluent": "Fluent",
+  "intermediate": "Intermediate",
+  "basic": "Basic",
+  "languages": {
+    "malayalam": "Malayalam",
+    "english": "English",
+    "hindi": "Hindi",
+    "arabic": "Arabic",
+    "german": "German",
+    "spanish": "Spanish",
+    "turkish": "Turkish",
+    "russian": "Russian"
+  },
+  "cefrLevels": "CEFR Levels",
+  "cefr": {
+    "c2": "Mastery",
+    "c1": "Advanced",
+    "b2": "Upper Intermediate",
+    "b1": "Intermediate",
+    "a2": "Elementary",
+    "a1": "Beginner"
+  }
+}

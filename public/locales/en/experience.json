@@ -1,0 +1,106 @@
+{
+  "title": "Professional",
+  "subtitle": "Journey",
+  "description": "3+ years of experience in data analytics, full-stack development, and technical training",
+  "stats": {
+    "roles": "Roles",
+    "years": "Years",
+    "students": "Students",
+    "achievements": "Achievements"
+  },
+  "award": "Award Winner",
+  "experiences": {
+    "senior": {
+      "role": "SENIOR DATA ANALYST & SOFTWARE DEVELOPER",
+      "company": "OFSYS EDUCATIONS LLP",
+      "location": "Kerala, India",
+      "period": "February 2026 - Present",
+      "achievements": [
+        "Leading advanced training programs in Python, SQL, Power BI, and Tableau",
+        "Delivering Python full-stack development using Django and Flask",
+        "Designing end-to-end analytics projects and full-stack solutions",
+        "Developing and optimizing ETL pipelines and data models",
+        "Mentoring 50+ students through structured assessments and project reviews"
+      ]
+    },
+    "trainer": {
+      "role": "DATA ANALYST & SOFTWARE DEVELOPER",
+      "company": "BEAT CENTER OF EXCELLENCE",
+      "location": "Malappuram, Kerala",
+      "period": "2024 - January 2026",
+      "achievements": [
+        "Conducted structured training sessions for 100+ students in data analytics",
+        "Delivered hands-on workshops on data cleaning and visualization techniques",
+        "Designed practical lab sessions for extracting business insights",
+        "Developed curriculum for advanced analytics courses"
+      ]
+    },
+    "developer": {
+      "role": "FULL-STACK WEB DEVELOPER",
+      "company": "IMAGECON INDIA PVT LTD",
+      "location": "Salem, India",
+      "period": "2022 - 2024",
+      "achievements": [
+        "Engineered Python automation solutions for IoT device data processing",
+        "Architected server-side components using Django and Flask",
+        "Received 'Ultimate Team Player Award' for outstanding contributions",
+        "Led technical workshops on IoT architecture and web technologies"
+      ]
+    },
+    "freelance": {
+      "role": "FREELANCE FULL-STACK & MOBILE DEVELOPER",
+      "company": "Freelancer",
+      "location": "Kerala, India",
+      "period": "2022 - Present",
+      "achievements": [
+        "Delivered 10+ customized web and mobile solutions for startups",
+        "Integrated secure payment systems (Razorpay, Stripe, PayPal)",
+        "Built cross-platform apps with Flutter and Firebase",
+        "Managed full development lifecycle from requirement to deployment"
+      ]
+    },
+    "intern": {
+      "role": "PYTHON DEVELOPER INTERN (Data & Automation)",
+      "company": "Infox Technologies",
+      "location": "India",
+      "period": "2021",
+      "achievements": [
+        "Developed backend data services and automation scripts in Python to support various business functions",
+        "Built and optimized relational databases, writing complex SQL queries for data extraction and reporting",
+        "Implemented web scraping solutions using BeautifulSoup and Selenium to gather data, processing and storing it in structured databases",
+        "Assisted in the development of Python-based software solutions for internal business operations",
+        "Participated in debugging and troubleshooting activities to resolve application performance issues"
+      ]
+    }
+  },
+  "certifications": {
+    "title": "Certifications & Achievements",
+    "items": [
+      {
+        "title": "Ultimate Team Player Award",
+        "desc": "IMAGECON India Pvt Ltd",
+        "year": "2024"
+      },
+      {
+        "title": "2nd Place - Robotics Hackathon",
+        "desc": "IEDC MESCE",
+        "year": "2023"
+      },
+      {
+        "title": "Google Cloud Certification",
+        "desc": "Architecting with Google Compute Engine",
+        "year": "2023"
+      },
+      {
+        "title": "VR/AR Workshop Certification",
+        "desc": "Autodesk Fusion 360",
+        "year": "2022"
+      }
+    ]
+  },
+  "download": {
+    "title": "Want the complete story?",
+    "description": "Download my detailed resume for a comprehensive view of my experience and achievements.",
+    "button": "Download Full CV"
+  }
+}

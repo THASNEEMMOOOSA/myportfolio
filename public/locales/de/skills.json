@@ -1,0 +1,67 @@
+{
+  "title": "Technisches Repertoire",
+  "subtitle": "20+ Technologien in Full-Stack-Entwicklung, Datenanalyse und mobiler Entwicklung",
+  "categories": {
+    "languages": "Programmiersprachen",
+    "backend": "Backend-Entwicklung",
+    "frontend": "Frontend-Entwicklung",
+    "mobile": "Mobile Entwicklung",
+    "databases": "Datenbanken",
+    "data": "Datenanalyse",
+    "cloud": "Cloud & DevOps",
+    "payment": "Zahlungsabwicklung & E-Commerce",
+    "ai": "KI & Maschinelles Lernen",
+    "cybersecurity": "Cybersicherheit"
+  },
+  "proficiency": {
+    "expert": "Experte",
+    "advanced": "Fortgeschritten",
+    "intermediate": "Mittelstufe",
+    "learning": "Lernend"
+  },
+  "proficiencyLevels": {
+    "expert": ["Python", "Django", "React", "SQL", "Power BI"],
+    "advanced": ["Flutter", "AWS", "PostgreSQL", "Tableau"],
+    "intermediate": ["TensorFlow", "Docker", "MongoDB"],
+    "learning": ["Web3", "Solidity", "Kubernetes"]
+  },
+  "skills": {
+    "languages": ["Python", "SQL", "JavaScript", "TypeScript", "Dart", "Java", "C++", "R", "PHP"],
+    "backend": ["Django", "Flask", "FastAPI", "REST APIs", "GraphQL", "Node.js", "Laravel", ".NET"],
+    "frontend": ["React.js", "Next.js", "HTML5", "CSS3", "Tailwind", "Bootstrap", "Vue.js"],
+    "mobile": ["Flutter", "Dart", "Firebase", "SQLite", "GetX", "Riverpod"],
+    "databases": ["PostgreSQL", "MySQL", "MongoDB", "SQLite", "Redis", "Firebase"],
+    "data": ["Power BI", "Tableau", "Pandas", "NumPy", "ETL", "Data Modeling", "Excel", "R"],
+    "cloud": ["AWS", "Google Cloud", "Azure", "Docker", "Git", "CI/CD", "Vercel", "Netlify"],
+    "payment": ["Stripe", "Razorpay", "PayPal", "Shopify", "Payment Gateways"],
+    "ai": ["Scikit-learn", "TensorFlow", "PyTorch", "LLMs", "NLP", "Computer Vision"],
+    "cybersecurity": ["Kali Linux", "Penetration Testing", "Secure Auth", "JWT", "OAuth"]
+  },
+  "coreCompetencies": "Kernkompetenzen",
+  "languageProficiency": "Sprachkenntnisse",
+  "nativeFluent": "Muttersprache & Fließend",
+  "intermediateBasic": "Mittelstufe & Grundkenntnisse",
+  "motherTongue": "Muttersprache",
+  "fluent": "Fließend",
+  "intermediate": "Mittelstufe",
+  "basic": "Grundkenntnisse",
+  "languages": {
+    "malayalam": "Malayalam",
+    "english": "Englisch",
+    "hindi": "Hindi",
+    "arabic": "Arabisch",
+    "german": "Deutsch",
+    "spanish": "Spanisch",
+    "turkish": "Türkisch",
+    "russian": "Russisch"
+  },
+  "cefrLevels": "GER-Niveaus",
+  "cefr": {
+    "c2": "Muttersprachliches Niveau",
+    "c1": "Fortgeschritten",
+    "b2": "Gute Mittelstufe",
+    "b1": "Mittelstufe",
+    "a2": "Grundlegende Kenntnisse",
+    "a1": "Anfänger"
+  }
+}

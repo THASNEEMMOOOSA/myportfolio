@@ -1,0 +1,106 @@
+{
+  "title": "Beruflicher",
+  "subtitle": "Werdegang",
+  "description": "3+ Jahre Erfahrung in Datenanalyse, Full-Stack-Entwicklung und technischer Ausbildung",
+  "stats": {
+    "roles": "Positionen",
+    "years": "Jahre",
+    "students": "Studenten",
+    "achievements": "Auszeichnungen"
+  },
+  "award": "Preisträger",
+  "experiences": {
+    "senior": {
+      "role": "SENIOR DATENANALYST & SOFTWAREENTWICKLER",
+      "company": "OFSYS EDUCATIONS LLP",
+      "location": "Kerala, Indien",
+      "period": "Februar 2026 - Heute",
+      "achievements": [
+        "Leitung von Fortbildungsprogrammen in Python, SQL, Power BI und Tableau",
+        "Durchführung von Python Full-Stack-Entwicklung mit Django und Flask",
+        "Entwicklung von End-to-End-Analytikprojekten und Full-Stack-Lösungen",
+        "Entwicklung und Optimierung von ETL-Pipelines und Datenmodellen",
+        "Betreuung von 50+ Studenten durch strukturierte Bewertungen und Projektüberprüfungen"
+      ]
+    },
+    "trainer": {
+      "role": "DATENANALYST & SOFTWAREENTWICKLER",
+      "company": "BEAT CENTER OF EXCELLENCE",
+      "location": "Malappuram, Kerala",
+      "period": "2024 - Januar 2026",
+      "achievements": [
+        "Durchführung strukturierter Schulungen für 100+ Studenten in Datenanalytik",
+        "Durchführung praktischer Workshops zu Datenbereinigung und Visualisierungstechniken",
+        "Entwicklung praktischer Laboreinheiten zur Gewinnung von Geschäftseinblicken",
+        "Entwicklung von Lehrplänen für fortgeschrittene Analytikkurse"
+      ]
+    },
+    "developer": {
+      "role": "FULL-STACK WEBENTWICKLER",
+      "company": "IMAGECON INDIA PVT LTD",
+      "location": "Salem, Indien",
+      "period": "2022 - 2024",
+      "achievements": [
+        "Entwicklung von Python-Automatisierungslösungen für IoT-Datenverarbeitung",
+        "Architektur von Serverkomponenten mit Django und Flask",
+        "Erhalt des 'Ultimate Team Player Award' für herausragende Beiträge",
+        "Leitung technischer Workshops zu IoT-Architektur und Webtechnologien"
+      ]
+    },
+    "freelance": {
+      "role": "FREIBERUFLER FULL-STACK & MOBILE ENTWICKLER",
+      "company": "Selbstständig",
+      "location": "Kerala, Indien",
+      "period": "2022 - Heute",
+      "achievements": [
+        "Lieferung von 10+ maßgeschneiderten Web- und Mobillösungen für Startups",
+        "Integration sicherer Zahlungssysteme (Razorpay, Stripe, PayPal)",
+        "Entwicklung plattformübergreifender Apps mit Flutter und Firebase",
+        "Management des gesamten Entwicklungszyklus von der Anforderung bis zur Bereitstellung"
+      ]
+    },
+    "intern": {
+      "role": "PYTHON-ENTWICKLER PRAKTIKANT (Daten & Automation)",
+      "company": "Infox Technologies",
+      "location": "Indien",
+      "period": "2021",
+      "achievements": [
+        "Entwicklung von Backend-Datendiensten und Automatisierungsskripten in Python",
+        "Aufbau und Optimierung relationaler Datenbanken, komplexe SQL-Abfragen",
+        "Implementierung von Web-Scraping-Lösungen mit BeautifulSoup und Selenium",
+        "Unterstützung bei der Entwicklung Python-basierter Softwarelösungen",
+        "Teilnahme an Debugging- und Fehlerbehebungsaktivitäten"
+      ]
+    }
+  },
+  "certifications": {
+    "title": "Zertifikate & Auszeichnungen",
+    "items": [
+      {
+        "title": "Ultimate Team Player Award",
+        "desc": "IMAGECON India Pvt Ltd",
+        "year": "2024"
+      },
+      {
+        "title": "2. Platz - Roboter-Hackathon",
+        "desc": "IEDC MESCE",
+        "year": "2023"
+      },
+      {
+        "title": "Google Cloud Zertifizierung",
+        "desc": "Architecting with Google Compute Engine",
+        "year": "2023"
+      },
+      {
+        "title": "VR/AR Workshop Zertifizierung",
+        "desc": "Autodesk Fusion 360",
+        "year": "2022"
+      }
+    ]
+  },
+  "download": {
+    "title": "Den vollständigen Werdegang ansehen?",
+    "description": "Laden Sie meinen detaillierten Lebenslauf herunter, um einen umfassenden Überblick über meine Erfahrungen und Erfolge zu erhalten.",
+    "button": "Vollständigen Lebenslauf herunterladen"
+  }
+}

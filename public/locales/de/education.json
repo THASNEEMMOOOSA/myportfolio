@@ -1,0 +1,63 @@
+{
+  "title": "Bildung & Qualifikationen",
+  "subtitle": "Akademischer Hintergrund und professionelle Zertifizierungen in Informatik und Ingenieurwesen",
+  "stats": {
+    "degrees": "Abschlüsse",
+    "certifications": "Zertifikate",
+    "subjects": "Fächer",
+    "cgpa": "Notendurchschnitt"
+  },
+  "academicJourney": "Akademischer Werdegang",
+  "btech": {
+    "degree": "BACHELOR OF TECHNOLOGY IN COMPUTER SCIENCE & ENGINEERING",
+    "institution": "Glocal Universität",
+    "location": "Saharanpur, UP, Indien",
+    "period": "2018 - 2022",
+    "score": "CGPA: 8.2/10",
+    "achievements": [
+      "Spezialisierung auf Informatik und Ingenieurwesen",
+      "Abschluss von Hauptprojekten in Webentwicklung und Datenanalyse",
+      "Aktive Teilnahme an technischen Workshops und Hackathons"
+    ]
+  },
+  "higherSecondary": {
+    "degree": "HOCHSCHULREIFE",
+    "institution": "MIC HSS Athanikkal",
+    "location": "Athanikkal, Kerala, Indien",
+    "period": "2018",
+    "score": "Mit Auszeichnung abgeschlossen",
+    "achievements": [
+      "Naturwissenschaftlicher Zweig mit Informatik als Wahlfach",
+      "Teilnahme an schulinternen Technologiewettbewerben",
+      "Starke Grundlagen in Mathematik und Programmierung"
+    ]
+  },
+  "coreCurriculum": "Kerncurriculum",
+  "curriculum": {
+    "core": "Kerninformatik",
+    "math": "Mathematik",
+    "development": "Entwicklung",
+    "data": "Datenwissenschaft"
+  },
+  "subjects": {
+    "core": ["Datenstrukturen", "Algorithmen", "OOP", "DBMS", "Betriebssysteme", "Netzwerke"],
+    "math": ["Analysis", "Lineare Algebra", "Statistik", "Diskrete Mathematik"],
+    "development": ["Webentwicklung", "Mobile Entwicklung", "API-Design", "Datenbankdesign"],
+    "data": ["Datenanalyse", "Maschinelles Lernen", "Visualisierung"]
+  },
+  "professionalCerts": "Professionelle Zertifizierungen",
+  "certifications": [
+    {
+      "title": "Architecting with Google Compute Engine",
+      "issuer": "Google Cloud",
+      "year": "2023"
+    },
+    {
+      "title": "VR/AR mit Fusion 360 Workshop",
+      "issuer": "Autodesk",
+      "year": "2022"
+    }
+  ],
+  "continuousLearner": "Lebenslanges Lernen",
+  "learnerDesc": "Leidenschaftlich daran interessiert, mit den neuesten Technologien Schritt zu halten. Derzeit Erweiterung der Kenntnisse in Cloud Computing, KI/ML und Web3-Technologien."
+}

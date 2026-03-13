@@ -1,9 +1,11 @@
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { useTranslation } from 'react-i18next';
 import { Send, CheckCircle, AlertCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function ContactForm() {
+  const { t } = useTranslation(['contact', 'common']);
   const formRef = useRef();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [status, setStatus] = useState({ type: '', message: '' });
@@ -15,29 +17,27 @@ export default function ContactForm() {
 
     try {
       const result = await emailjs.sendForm(
-        'service_854mzku',
-        'template_18mvkx8',
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
         formRef.current,
-        'SUKIfi_b0-pYq2Gu1'
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
       );
 
-      if (result.text === 'OK') {
+      if (result.status === 200) {
         setStatus({
           type: 'success',
-          message: 'Message sent successfully! I\'ll get back to you soon.'
+          message: t('common:status.success')
         });
         formRef.current.reset();
         
-        // Clear success message after 5 seconds
         setTimeout(() => {
           setStatus({ type: '', message: '' });
         }, 5000);
       }
     } catch (error) {
-      console.error('EmailJS Error:', error);
       setStatus({
         type: 'error',
-        message: 'Failed to send message. Please try again or email me directly.'
+        message: t('common:status.error')
       });
     } finally {
       setIsSubmitting(false);
@@ -46,7 +46,6 @@ export default function ContactForm() {
 
   return (
     <div className="space-y-6">
-      {/* Status Messages */}
       {status.type === 'success' && (
         <motion.div 
           initial={{ opacity: 0, y: -10 }}
@@ -69,83 +68,94 @@ export default function ContactForm() {
         </motion.div>
       )}
 
-      {/* Contact Form */}
       <form ref={formRef} onSubmit={sendEmail} className="space-y-4">
         <div className="grid grid-cols-2 gap-4">
           <div>
-            <label className="block text-sm text-gray-400 mb-2">First Name *</label>
+            <label className="block text-sm text-gray-400 mb-2">
+              {t('form.firstName')} *
+            </label>
             <input
               type="text"
               name="from_name"
               required
-              className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-500 transition-colors"
-              placeholder="John"
+              className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-500"
+              placeholder={t('form.firstNamePlaceholder')}
             />
           </div>
           <div>
-            <label className="block text-sm text-gray-400 mb-2">Last Name</label>
+            <label className="block text-sm text-gray-400 mb-2">
+              {t('form.lastName')}
+            </label>
             <input
               type="text"
               name="from_lastname"
-              className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-500 transition-colors"
-              placeholder="Doe"
+              className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-500"
+              placeholder={t('form.lastNamePlaceholder')}
             />
           </div>
         </div>
 
         <div>
-          <label className="block text-sm text-gray-400 mb-2">Email *</label>
+          <label className="block text-sm text-gray-400 mb-2">
+            {t('form.email')} *
+          </label>
           <input
             type="email"
             name="from_email"
             required
-            className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-500 transition-colors"
-            placeholder="john@example.com"
+            className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-500"
+            placeholder={t('form.emailPlaceholder')}
           />
         </div>
 
         <div>
-          <label className="block text-sm text-gray-400 mb-2">Company</label>
+          <label className="block text-sm text-gray-400 mb-2">
+            {t('form.company')}
+          </label>
           <input
             type="text"
             name="company"
-            className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-500 transition-colors"
-            placeholder="Your Company"
+            className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-500"
+            placeholder={t('form.companyPlaceholder')}
           />
         </div>
 
         <div>
-          <label className="block text-sm text-gray-400 mb-2">Message *</label>
+          <label className="block text-sm text-gray-400 mb-2">
+            {t('form.message')} *
+          </label>
           <textarea
             name="message"
             required
             rows="5"
-            className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-500 transition-colors"
-            placeholder="Tell me about your opportunity..."
+            className="w-full px-4 py-3 bg-gray-700/50 border border-gray-600 rounded-lg focus:outline-none focus:border-blue-500"
+            placeholder={t('form.messagePlaceholder')}
           ></textarea>
         </div>
+
+        <input type="hidden" name="to_name" value="Thasneem" />
+        <input type="hidden" name="reply_to" value="{{from_email}}" />
 
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full group relative overflow-hidden bg-gradient-to-r from-blue-600 to-purple-600 text-white py-4 rounded-lg font-semibold disabled:opacity-50 disabled:cursor-not-allowed"
+          className="w-full group relative overflow-hidden bg-gradient-to-r from-blue-600 to-purple-600 text-white py-4 rounded-lg font-semibold disabled:opacity-50"
         >
           {isSubmitting ? (
             <span className="flex items-center justify-center gap-2">
               <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
-              Sending...
+              {t('common:buttons.sending')}
             </span>
           ) : (
             <span className="flex items-center justify-center gap-2">
-              Send Message <Send size={18} className="group-hover:translate-x-1 transition-transform" />
+              {t('common:buttons.sendMessage')} <Send size={18} className="group-hover:translate-x-1 transition-transform" />
             </span>
           )}
         </button>
       </form>
 
-      {/* Alternative Contact */}
       <div className="text-center text-sm text-gray-400 pt-4 border-t border-gray-700">
-        <p>Or email me directly at <a href="mailto:thasneemmoosa5000@gmail.com" className="text-blue-400 hover:underline">thasneemmoosa5000@gmail.com</a></p>
+        <p>{t('common:contact.email')}: <a href="mailto:thasneemmoosa5000@gmail.com" className="text-blue-400 hover:underline">thasneemmoosa5000@gmail.com</a></p>
       </div>
     </div>
   );

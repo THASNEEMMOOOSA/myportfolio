@@ -1,0 +1,82 @@
+{
+  "title": "Professionelle Projekte",
+  "subtitle": "Unternehmenslösungen, die Full-Stack-Expertise, Datenanalysefähigkeiten und mobile Entwicklungskompetenz demonstrieren.",
+  "stats": {
+    "total": "Projekte insgesamt",
+    "technologies": "Technologien",
+    "categories": "Kategorien",
+    "years": "Jahre Erfahrung"
+  },
+  "categories": {
+    "fullstack": "Full-Stack",
+    "data": "Daten/IoT",
+    "enterprise": "Unternehmen",
+    "analytics": "Analytik",
+    "mobile": "Mobil",
+    "web": "Webanwendung"
+  },
+  "featured": "Ausgezeichnet",
+  "projects": {
+    "ecommerce": {
+      "title": "E-Commerce-Plattform",
+      "description": "Full-Stack-E-Commerce-Lösung mit Zahlungsintegration, Echtzeit-Inventar und Analyse-Dashboard.",
+      "longDesc": "Entwicklung einer skalierbaren E-Commerce-Plattform für 1000+ tägliche Nutzer. Implementierung sicherer Zahlungsabwicklung mit Stripe & Razorpay, Echtzeit-Inventarverwaltung und umfassendes Umsatzanalyse-Dashboard mit Vorhersagen.",
+      "tech": ["Django", "React", "PostgreSQL", "Stripe", "Redis", "Docker", "AWS"],
+      "metrics": ["99,9% Verfügbarkeit", "5 Zahlungsarten", "10k+ Produkte"]
+    },
+    "iot": {
+      "title": "IoT-Datenüberwachungssystem",
+      "description": "Echtzeit-Überwachungs- und Analyseplattform für IoT-Geräte in industriellen Anwendungen.",
+      "longDesc": "Entwicklung eines skalierbaren Systems zur Erfassung, Verarbeitung und Visualisierung von Daten von 1000+ IoT-Geräten in Echtzeit. Bau kundenspezifischer WebSocket-APIs für Gerätekommunikation, Implementierung von Anomalieerkennungsalgorithmen und Erstellung interaktiver Überwachungs-Dashboards.",
+      "tech": ["Python", "Flask", "PostgreSQL", "WebSocket", "Chart.js", "MQTT", "InfluxDB"],
+      "metrics": ["1000+ Geräte", "<100ms Latenz", "99,5% Genauigkeit"]
+    },
+    "pos": {
+      "title": "POS-Abrechnungssystem",
+      "description": "Enterprise-Einzelhandelsverwaltungssystem mit Bestandsverfolgung und erweiterter Analytik.",
+      "longDesc": "Erstellung eines umfassenden POS-Systems für Einzelhandelsketten mit Bestandsverwaltung, automatisierter Abrechnung, dynamischer Steuerberechnung, Rabattverarbeitung, Lieferantenverwaltung und detaillierten Umsatzberichten mit vorausschauenden Nachbestellungsbenachrichtigungen.",
+      "tech": ["Django", "React", "PostgreSQL", "Tailwind", "Redux", "Redis", "Nginx"],
+      "metrics": ["40% schnellere Abrechnung", "500+ Transaktionen/Tag", "98% Genauigkeit"]
+    },
+    "analytics": {
+      "title": "Umsatzanalyse-Dashboard",
+      "description": "Enterprise-BI-Dashboard für Umsatzverfolgung und -prognose.",
+      "longDesc": "Entwurf und Implementierung eines umfassenden Umsatzanalyse-Dashboards mit Integration mehrerer Datenquellen (SQL, Excel, APIs). Funktionen umfassen Echtzeit-KPI-Verfolgung, prädiktive Analytik mit ML-Modellen, benutzerdefinierte Berichterstellung und automatisierte Einblicke.",
+      "tech": ["Power BI", "SQL", "Python", "Excel", "Tableau", "DAX", "Power Query"],
+      "metrics": ["15+ KPIs", "5 Datenquellen", "Tägliche Updates"]
+    },
+    "mobile": {
+      "title": "Mobile Zahlungsanwendung",
+      "description": "Plattformübergreifende mobile App mit sicheren In-App-Zahlungen und Echtzeit-Synchronisierung.",
+      "longDesc": "Entwicklung einer Flutter-basierten mobilen Anwendung für Android/iOS mit integrierter Zahlungsabwicklung (Stripe, Razorpay), biometrischer Authentifizierung, Echtzeit-Datensynchronisierung mit Firebase und Offline-First-Architektur für nahtlose Benutzererfahrung.",
+      "tech": ["Flutter", "Dart", "Firebase", "Stripe", "GetX", "SQLite", "BLoC"],
+      "metrics": ["2 Plattformen", "Biometrisch sicher", "Offline-Modus"]
+    },
+    "employee": {
+      "title": "Mitarbeiterverwaltungssystem",
+      "description": "Umfassende HR-Management-Plattform mit rollenbasierter Zugriffskontrolle und Gehaltsabrechnungsintegration.",
+      "longDesc": "Entwicklung eines voll ausgestatteten Mitarbeiterverwaltungssystems mit sicheren CRUD-Operationen, rollenbasierter Zugriffskontrolle (RBAC), Anwesenheitsverfolgung mit Gesichtserkennung, Gehaltsabrechnungsintegration, Leistungsbeurteilungsworkflows und automatisierter Berichterstellung.",
+      "tech": ["Django", "MySQL", "React", "JWT", "Bootstrap", "Celery", "Redis"],
+      "metrics": ["RBAC", "500+ Nutzer", "Cloud-basiert"]
+    },
+    "realestate": {
+      "title": "Immobilienplattform",
+      "description": "Immobilienverwaltungs- und Listings-Plattform mit erweiterter Suche und virtuellen Touren.",
+      "longDesc": "Entwicklung einer Immobilienplattform mit Immobilienlistings, erweiterten Suchfiltern, interaktiven Karten, Integration virtueller Touren, Agenten-Dashboards, Lead-Management und automatisierten E-Mail-Benachrichtigungen für neue Listings.",
+      "tech": ["Django", "React", "PostgreSQL", "Mapbox", "Elasticsearch", "Redis"],
+      "metrics": ["1000+ Listings", "Erweiterte Suche", "Virtuelle Touren"]
+    },
+    "task": {
+      "title": "Aufgabenverwaltungs-App",
+      "description": "Produktivitätsorientierte mobile App mit Aufgabenorganisation und Teamzusammenarbeit.",
+      "longDesc": "Entwicklung einer plattformübergreifenden Aufgabenverwaltungsanwendung mit Aufgabenerstellung, Kategorisierung, Prioritätseinstellung, Terminverfolgung, Teamzusammenarbeit, Echtzeit-Updates und Offline-Datenspeicherung mit Cloud-Synchronisierung.",
+      "tech": ["Flutter", "Dart", "Firebase", "SQLite", "Provider", "Push Notifications"],
+      "metrics": ["Offline-First", "Echtzeit-Sync", "Teamarbeit"]
+    }
+  },
+  "cta": {
+    "title": "Interesse an einer Zusammenarbeit?",
+    "description": "Ich bin derzeit verfügbar für freiberufliche Projekte und Festanstellungen.",
+    "button": "Ihr Projekt besprechen"
+  }
+}

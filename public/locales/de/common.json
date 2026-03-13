@@ -1,0 +1,40 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "projects": "Projekte",
+    "experience": "Erfahrung",
+    "education": "Bildung",
+    "skills": "Kenntnisse",
+    "contact": "Kontakt"
+  },
+  "buttons": {
+    "downloadCV": "Lebenslauf herunterladen",
+    "viewWork": "Meine Arbeit ansehen",
+    "letsTalk": "Kontakt aufnehmen",
+    "sendMessage": "Nachricht senden",
+    "sending": "Wird gesendet...",
+    "viewAll": "Alle Projekte anzeigen",
+    "liveDemo": "Live-Demo",
+    "sourceCode": "Quellcode"
+  },
+  "award": {
+    "title": "Ultimate Team Player Award",
+    "issuer": "IMAGECON India Pvt Ltd",
+    "year": "2024",
+    "description": "Anerkennung für außergewöhnliche Zusammenarbeit, Führungsqualitäten und Engagement für Teamziele"
+  },
+  "status": {
+    "success": "Nachricht erfolgreich gesendet! Ich werde mich bald bei Ihnen melden.",
+    "error": "Senden fehlgeschlagen. Bitte versuchen Sie es erneut oder senden Sie mir direkt eine E-Mail."
+  },
+  "contact": {
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "location": "Standort",
+    "visa": "Visastatus",
+    "visaStatus": "Offen für Visasponsoring",
+    "relocation": "Offen für internationale Relokalisierung",
+    "available": "Verfügbar für Möglichkeiten",
+    "remote": "Remote-Arbeit möglich"
+  }
+}

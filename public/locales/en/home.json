@@ -1,0 +1,33 @@
+{
+  "hero": {
+    "firstName": "THASNEEM",
+    "lastName": "VELLARAMPARA",
+    "title": "Senior Data Analyst & Full-Stack Developer",
+    "description1": "crafting data-driven solutions",
+    "description2": "and scalable applications"
+  },
+  "stats": {
+    "experience": "Years Experience",
+    "projects": "Projects Completed",
+    "clients": "Happy Clients",
+    "technologies": "Technologies"
+  },
+  "charts": {
+    "technicalProficiency": "Technical Proficiency",
+    "careerGrowth": "Career Growth"
+  },
+  "featuredProject": {
+    "title": "Featured Project: E-Commerce Platform",
+    "description": "Full-stack e-commerce platform with payment integration, product management, and analytics dashboard.",
+    "tech": ["Django", "React", "PostgreSQL", "Stripe", "Redis"],
+    "metrics": {
+      "uptime": "Uptime",
+      "gateways": "Gateways"
+    }
+  },
+  "download": {
+    "title": "Want to know more?",
+    "description": "Download my detailed resume to see my complete work history, certifications, and technical skills.",
+    "button": "Download CV (PDF)"
+  }
+}
