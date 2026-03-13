@@ -4,6 +4,13 @@ import { useTranslation } from 'react-i18next';
 import { Send, CheckCircle, AlertCircle } from 'lucide-react';
 import { motion } from 'framer-motion';
 
+useEffect(() => {
+  console.log('EmailJS Config Check:');
+  console.log('Service ID:', import.meta.env.VITE_EMAILJS_SERVICE_ID ? '✅' : '❌');
+  console.log('Template ID:', import.meta.env.VITE_EMAILJS_TEMPLATE_ID ? '✅' : '❌');
+  console.log('Public Key:', import.meta.env.VITE_EMAILJS_PUBLIC_KEY ? '✅' : '❌');
+}, []);
+
 export default function ContactForm() {
   const { t } = useTranslation(['contact', 'common']);
   const formRef = useRef();
