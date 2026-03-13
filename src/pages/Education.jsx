@@ -48,7 +48,7 @@ export default function Education() {
         </div>
         <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-xl border border-gray-700 text-center">
           <Star className="w-6 h-6 text-yellow-400 mx-auto mb-2" />
-          <div className="text-2xl font-bold text-white">8.2</div>
+          <div className="text-2xl font-bold text-white">7.0</div>
           <div className="text-sm text-gray-400">{t('education:stats.cgpa')}</div>
         </div>
       </motion.div>
