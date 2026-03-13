@@ -80,16 +80,7 @@ export default function ContactForm() {
 
   return (
     <div className="space-y-6">
-      {/* Debug info - remove after confirming it works on Vercel */}
-      <div className="text-xs text-gray-500 bg-gray-800 p-2 rounded mb-2">
-        EmailJS: {
-          import.meta.env.VITE_EMAILJS_SERVICE_ID ? '✅' : '❌'
-        } {
-          import.meta.env.VITE_EMAILJS_TEMPLATE_ID ? '✅' : '❌'
-        } {
-          import.meta.env.VITE_EMAILJS_PUBLIC_KEY ? '✅' : '❌'
-        }
-      </div>
+
 
       {status.type === 'success' && (
         <motion.div 
