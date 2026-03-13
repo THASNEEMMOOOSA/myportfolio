@@ -10,20 +10,20 @@ export default function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [status, setStatus] = useState({ type: '', message: '' });
 
-  // ✅ Move useEffect INSIDE the component
-  useEffect(() => {
-    console.log('EmailJS Config Check:');
-    console.log('Service ID:', import.meta.env.VITE_EMAILJS_SERVICE_ID ? '✅' : '❌');
-    console.log('Template ID:', import.meta.env.VITE_EMAILJS_TEMPLATE_ID ? '✅' : '❌');
-    console.log('Public Key:', import.meta.env.VITE_EMAILJS_PUBLIC_KEY ? '✅' : '❌');
+  // // ✅ Move useEffect INSIDE the component
+  // useEffect(() => {
+  //   console.log('EmailJS Config Check:');
+  //   console.log('Service ID:', import.meta.env.VITE_EMAILJS_SERVICE_ID ? '✅' : '❌');
+  //   console.log('Template ID:', import.meta.env.VITE_EMAILJS_TEMPLATE_ID ? '✅' : '❌');
+  //   console.log('Public Key:', import.meta.env.VITE_EMAILJS_PUBLIC_KEY ? '✅' : '❌');
     
-    // Alert for missing variables (helpful for debugging)
-    if (!import.meta.env.VITE_EMAILJS_SERVICE_ID || 
-        !import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 
-        !import.meta.env.VITE_EMAILJS_PUBLIC_KEY) {
-      console.warn('⚠️ EmailJS environment variables are missing!');
-    }
-  }, []); // Empty dependency array = runs once when component mounts
+  //   // Alert for missing variables (helpful for debugging)
+  //   if (!import.meta.env.VITE_EMAILJS_SERVICE_ID || 
+  //       !import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 
+  //       !import.meta.env.VITE_EMAILJS_PUBLIC_KEY) {
+  //     console.warn('⚠️ EmailJS environment variables are missing!');
+  //   }
+  // }, []); // Empty dependency array = runs once when component mounts
 
   const sendEmail = async (e) => {
     e.preventDefault();
