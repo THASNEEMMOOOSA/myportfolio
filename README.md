@@ -21,7 +21,7 @@ https://myportfolio-two-topaz-79.vercel.app/
 
 * React
 * Vite
-* CSS / Tailwind CSS / SCSS *(adjust depending on what you used)*
+* CSS / Tailwind CSS / SCSS 
 * EmailJS
 * Responsive Web Design
 
