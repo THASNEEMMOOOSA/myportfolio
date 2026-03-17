@@ -69,7 +69,7 @@ export default function Home() {
 
           <a
             href="/cv/Thasneem_Vellarampara_CV.pdf"
-            download="Thasneem_Vellarampara_CV.pdf"
+            download
             className="px-8 py-3 bg-gray-700 hover:bg-gray-600 rounded-lg font-semibold transition-colors flex items-center gap-2"
           >
             <Download size={18} />
@@ -77,35 +77,51 @@ export default function Home() {
           </a>
         </div>
       </motion.div>
-
-      {/* Stats Grid */}
+      {/* About Me Section - Add after Hero */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.2 }}
-        className="grid grid-cols-2 md:grid-cols-4 gap-4"
+        transition={{ delay: 0.15 }}
+        className="bg-gray-800/50 backdrop-blur-sm p-8 rounded-xl border border-gray-700"
       >
-        <div className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover-glow">
-          <Briefcase className="w-8 h-8 text-blue-400 mb-3" />
-          <div className="text-3xl font-bold text-white">3+</div>
-          <div className="text-sm text-gray-400">{t('home:stats.experience')}</div>
-        </div>
-        <div className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover-glow">
-          <Code className="w-8 h-8 text-green-400 mb-3" />
-          <div className="text-3xl font-bold text-white">15+</div>
-          <div className="text-sm text-gray-400">{t('home:stats.projects')}</div>
-        </div>
-        <div className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover-glow">
-          <Users className="w-8 h-8 text-purple-400 mb-3" />
-          <div className="text-3xl font-bold text-white">12+</div>
-          <div className="text-sm text-gray-400">{t('home:stats.clients')}</div>
-        </div>
-        <div className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover-glow">
-          <Zap className="w-8 h-8 text-orange-400 mb-3" />
-          <div className="text-3xl font-bold text-white">20+</div>
-          <div className="text-sm text-gray-400">{t('home:stats.technologies')}</div>
-        </div>
+        <h2 className="text-2xl font-bold mb-4 gradient-text">About Me</h2>
+        <p className="text-gray-300 leading-relaxed">
+          Results-driven Software Developer with 4 years of experience in backend development across Python and Java ecosystems. 
+          Proficient in Django, FastAPI, and Spring Boot, with strong expertise in RESTful API design, microservices architecture, 
+          and database optimization. Experienced in cloud deployment (AWS/GCP), containerization (Docker/Kubernetes), 
+          and full-stack development using React.js and Flutter. Passionate about building scalable, secure, 
+          and high-performance applications.
+        </p>
       </motion.div>
+
+      {/* Stats Grid */}
+      <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.2 }}
+      className="grid grid-cols-2 md:grid-cols-4 gap-4"
+    >
+      <div className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover-glow">
+        <Briefcase className="w-8 h-8 text-blue-400 mb-3" />
+        <div className="text-3xl font-bold text-white">4+</div>  {/* Changed from 3+ to 4+ */}
+        <div className="text-sm text-gray-400">{t('home:stats.experience')}</div>
+      </div>
+      <div className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover-glow">
+        <Code className="w-8 h-8 text-green-400 mb-3" />
+        <div className="text-3xl font-bold text-white">30+</div>  {/* Changed from 15+ to 30+ */}
+        <div className="text-sm text-gray-400">{t('home:stats.projects')}</div>
+      </div>
+      <div className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover-glow">
+        <Users className="w-8 h-8 text-purple-400 mb-3" />
+        <div className="text-3xl font-bold text-white">50+</div>  {/* Changed from 12+ to 50+ (students mentored) */}
+        <div className="text-sm text-gray-400">{t('home:stats.clients')}</div>
+      </div>
+      <div className="bg-gray-800/50 backdrop-blur-sm p-6 rounded-xl border border-gray-700 hover-glow">
+        <Zap className="w-8 h-8 text-orange-400 mb-3" />
+        <div className="text-3xl font-bold text-white">30+</div>  {/* Changed from 20+ to 30+ */}
+        <div className="text-sm text-gray-400">{t('home:stats.technologies')}</div>
+      </div>
+    </motion.div>
 
       {/* Charts Section */}
       <div className="grid md:grid-cols-2 gap-6">
@@ -168,6 +184,7 @@ export default function Home() {
       </motion.div>
 
       {/* Featured Project */}
+      {/* Featured Project */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -179,18 +196,19 @@ export default function Home() {
           <div>
             <p className="text-gray-300 mb-4">{t('home:featuredProject.description')}</p>
             <div className="flex flex-wrap gap-2 mb-4">
-              {['Django', 'React', 'PostgreSQL', 'Stripe', 'Redis'].map(tech => (
+              {/* FIX THIS: Update to match URL Shortener tech stack */}
+              {['Node.js', 'Express.js', 'PostgreSQL', 'Redis', 'Docker', 'AWS'].map(tech => (
                 <span key={tech} className="px-3 py-1 bg-gray-700 rounded-full text-sm">{tech}</span>
               ))}
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div className="text-center p-3 bg-gray-700/50 rounded-lg">
-                <div className="text-xl font-bold text-blue-400">99.9%</div>
+                <div className="text-xl font-bold text-blue-400">1M+</div>
                 <div className="text-xs text-gray-400">{t('home:featuredProject.metrics.uptime')}</div>
               </div>
               <div className="text-center p-3 bg-gray-700/50 rounded-lg">
-                <div className="text-xl font-bold text-green-400">5+</div>
-                <div className="text-xs text-gray-400">{t('home:featuredProject.metrics.gateways')}</div>
+                <div className="text-xl font-bold text-green-400">&lt;50ms</div>
+                <div className="text-xs text-gray-400">Latency</div>
               </div>
             </div>
           </div>
@@ -211,13 +229,13 @@ export default function Home() {
       >
         <h3 className="text-2xl font-bold mb-3">{t('home:download.title')}</h3>
         <p className="text-gray-300 mb-6">{t('home:download.description')}</p>
-        <a
-          href="/cv/Thasneem_Vellarampara_CV.pdf"
+          <a
+          href="/cv/Thasneem_Vellarampara_CV.pdf"  // Your actual filename
           download="Thasneem_Vellarampara_CV.pdf"
-          className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
+          className="px-8 py-3 bg-gray-700 hover:bg-gray-600 rounded-lg font-semibold transition-colors flex items-center gap-2"
         >
           <Download size={18} />
-          {t('home:download.button')}
+          {t('buttons.downloadCV')}
         </a>
       </motion.div>
     </div>

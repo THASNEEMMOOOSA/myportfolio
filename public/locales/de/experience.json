@@ -1,62 +1,62 @@
 {
-  "title": "Beruflicher",
-  "subtitle": "Werdegang",
-  "description": "3+ Jahre Erfahrung in Datenanalyse, Full-Stack-Entwicklung und technischer Ausbildung",
+  "title": "Berufliche",
+  "subtitle": "Erfahrung",
+  "description": "4+ Jahre Erfahrung in Backend-Entwicklung, Microservices-Architektur und Full-Stack-Lösungen",
   "stats": {
     "roles": "Positionen",
     "years": "Jahre",
-    "students": "Studenten",
+    "students": "Mentorierte Studenten",
     "achievements": "Auszeichnungen"
   },
   "award": "Preisträger",
   "experiences": {
     "senior": {
-      "role": "SENIOR DATENANALYST & SOFTWAREENTWICKLER",
+      "role": "SOFTWAREENTWICKLER",
       "company": "OFSYS EDUCATIONS LLP",
       "location": "Kerala, Indien",
       "period": "Februar 2026 - Heute",
       "achievements": [
-        "Leitung von Fortbildungsprogrammen in Python, SQL, Power BI und Tableau",
-        "Durchführung von Python Full-Stack-Entwicklung mit Django und Flask",
-        "Entwicklung von End-to-End-Analytikprojekten und Full-Stack-Lösungen",
-        "Entwicklung und Optimierung von ETL-Pipelines und Datenmodellen",
-        "Betreuung von 50+ Studenten durch strukturierte Bewertungen und Projektüberprüfungen"
+        "Entwicklung skalierbarer Backend-Dienste mit Python (Django, FastAPI) für 500+ gleichzeitige Nutzer mit <200ms Antwortzeit",
+        "Optimierung von PostgreSQL-Abfragen, Reduzierung der API-Antwortzeit um 40% durch Indizierung und Redis-Caching",
+        "Entwicklung von React.js-Frontends mit 10.000+ täglichen API-Anfragen, Steigerung der mobilen Interaktion um 30%",
+        "Containerisierung mit Docker und Bereitstellung auf AWS mit CI/CD-Pipelines"
       ]
     },
     "trainer": {
-      "role": "DATENANALYST & SOFTWAREENTWICKLER",
+      "role": "SOFTWAREENTWICKLER",
       "company": "BEAT CENTER OF EXCELLENCE",
       "location": "Malappuram, Kerala",
       "period": "2024 - Januar 2026",
       "achievements": [
-        "Durchführung strukturierter Schulungen für 100+ Studenten in Datenanalytik",
-        "Durchführung praktischer Workshops zu Datenbereinigung und Visualisierungstechniken",
-        "Entwicklung praktischer Laboreinheiten zur Gewinnung von Geschäftseinblicken",
-        "Entwicklung von Lehrplänen für fortgeschrittene Analytikkurse"
+        "Erreichung von 90+ PageSpeed-Werten durch Leistungsoptimierung, Steigerung des organischen Traffics um 40%",
+        "Entwicklung von Full-Stack-Lösungen mit WordPress und benutzerdefinierten Python-Skripten",
+        "Erstellung responsiver, mobile-first UI-Komponenten mit browserübergreifender Kompatibilität"
       ]
     },
     "developer": {
-      "role": "FULL-STACK WEBENTWICKLER",
+      "role": "SOFTWAREENTWICKLER",
       "company": "IMAGECON INDIA PVT LTD",
       "location": "Salem, Indien",
       "period": "2022 - 2024",
       "achievements": [
-        "Entwicklung von Python-Automatisierungslösungen für IoT-Datenverarbeitung",
-        "Architektur von Serverkomponenten mit Django und Flask",
-        "Erhalt des 'Ultimate Team Player Award' für herausragende Beiträge",
-        "Leitung technischer Workshops zu IoT-Architektur und Webtechnologien"
+        "Entwicklung von Microservices mit Java Spring Boot und RabbitMQ für asynchrone Verarbeitung",
+        "Erstellung von RESTful-APIs mit Spring MVC für 10.000+ tägliche Anfragen",
+        "Design und Optimierung von Datenbankschemata mit JPA/Hibernate und PostgreSQL",
+        "Entwicklung plattformübergreifender mobiler Apps mit Flutter (5.000+ Downloads, 4.5★ Bewertung)",
+        "Integration von Zahlungsgateways (Razorpay, Stripe) mit Transaktionen über $50K",
+        "Mentoring von Junior-Entwicklern in Python und Java Best Practices"
       ]
     },
     "freelance": {
-      "role": "FREIBERUFLER FULL-STACK & MOBILE ENTWICKLER",
+      "role": "FREIBERUFLER",
       "company": "Selbstständig",
       "location": "Kerala, Indien",
       "period": "2022 - Heute",
       "achievements": [
+        "Entwicklung von Python-Automatisierungsskripten mit Pandas und NumPy, Einsparung von 10+ Stunden pro Woche",
+        "Erstellung von Web-Scraping-Tools mit BeautifulSoup und Selenium",
         "Lieferung von 10+ maßgeschneiderten Web- und Mobillösungen für Startups",
-        "Integration sicherer Zahlungssysteme (Razorpay, Stripe, PayPal)",
-        "Entwicklung plattformübergreifender Apps mit Flutter und Firebase",
-        "Management des gesamten Entwicklungszyklus von der Anforderung bis zur Bereitstellung"
+        "Integration sicherer Zahlungssysteme (Razorpay, Stripe, PayPal)"
       ]
     },
     "intern": {
@@ -77,6 +77,16 @@
     "title": "Zertifikate & Auszeichnungen",
     "items": [
       {
+        "title": "Architecting with Google Compute Engine",
+        "desc": "Google Cloud Spezialisierung",
+        "year": "2023"
+      },
+      {
+        "title": "VR/AR mit Fusion 360 Workshop",
+        "desc": "Autodesk Zertifizierung",
+        "year": "2022"
+      },
+      {
         "title": "Ultimate Team Player Award",
         "desc": "IMAGECON India Pvt Ltd",
         "year": "2024"
@@ -85,22 +95,12 @@
         "title": "2. Platz - Roboter-Hackathon",
         "desc": "IEDC MESCE",
         "year": "2023"
-      },
-      {
-        "title": "Google Cloud Zertifizierung",
-        "desc": "Architecting with Google Compute Engine",
-        "year": "2023"
-      },
-      {
-        "title": "VR/AR Workshop Zertifizierung",
-        "desc": "Autodesk Fusion 360",
-        "year": "2022"
       }
     ]
   },
   "download": {
     "title": "Den vollständigen Werdegang ansehen?",
     "description": "Laden Sie meinen detaillierten Lebenslauf herunter, um einen umfassenden Überblick über meine Erfahrungen und Erfolge zu erhalten.",
-    "button": "Vollständigen Lebenslauf herunterladen"
+    "button": "Lebenslauf herunterladen"
   }
 }

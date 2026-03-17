@@ -1,17 +1,15 @@
 {
   "title": "Technisches Repertoire",
-  "subtitle": "20+ Technologien in Full-Stack-Entwicklung, Datenanalyse und mobiler Entwicklung",
+  "subtitle": "4+ Jahre Erfahrung mit 30+ Technologien in Backend, Microservices und Full-Stack-Entwicklung",
   "categories": {
     "languages": "Programmiersprachen",
+    "java": "Java-Ökosystem",
+    "python": "Python-Ökosystem",
     "backend": "Backend-Entwicklung",
-    "frontend": "Frontend-Entwicklung",
-    "mobile": "Mobile Entwicklung",
-    "databases": "Datenbanken",
-    "data": "Datenanalyse",
+    "database": "Datenbanken",
+    "frontend": "Frontend & Mobile Entwicklung",
     "cloud": "Cloud & DevOps",
-    "payment": "Zahlungsabwicklung & E-Commerce",
-    "ai": "KI & Maschinelles Lernen",
-    "cybersecurity": "Cybersicherheit"
+    "other": "Weitere Fähigkeiten"
   },
   "proficiency": {
     "expert": "Experte",
@@ -20,24 +18,32 @@
     "learning": "Lernend"
   },
   "proficiencyLevels": {
-    "expert": ["Python", "Django", "React", "SQL", "Power BI"],
-    "advanced": ["Flutter", "AWS", "PostgreSQL", "Tableau"],
-    "intermediate": ["TensorFlow", "Docker", "MongoDB"],
-    "learning": ["Web3", "Solidity", "Kubernetes"]
+    "expert": ["Python", "Java", "Django", "Spring Boot", "PostgreSQL", "REST APIs"],
+    "advanced": ["FastAPI", "React", "Docker", "AWS", "Redis", "Microservices"],
+    "intermediate": ["Kubernetes", "Flutter", "MongoDB", "RabbitMQ", "TypeScript"],
+    "learning": ["Go", "GraphQL", "TensorFlow", "Web3"]
   },
   "skills": {
-    "languages": ["Python", "SQL", "JavaScript", "TypeScript", "Dart", "Java", "C++", "R", "PHP"],
-    "backend": ["Django", "Flask", "FastAPI", "REST APIs", "GraphQL", "Node.js", "Laravel", ".NET"],
-    "frontend": ["React.js", "Next.js", "HTML5", "CSS3", "Tailwind", "Bootstrap", "Vue.js"],
-    "mobile": ["Flutter", "Dart", "Firebase", "SQLite", "GetX", "Riverpod"],
-    "databases": ["PostgreSQL", "MySQL", "MongoDB", "SQLite", "Redis", "Firebase"],
-    "data": ["Power BI", "Tableau", "Pandas", "NumPy", "ETL", "Data Modeling", "Excel", "R"],
-    "cloud": ["AWS", "Google Cloud", "Azure", "Docker", "Git", "CI/CD", "Vercel", "Netlify"],
-    "payment": ["Stripe", "Razorpay", "PayPal", "Shopify", "Payment Gateways"],
-    "ai": ["Scikit-learn", "TensorFlow", "PyTorch", "LLMs", "NLP", "Computer Vision"],
-    "cybersecurity": ["Kali Linux", "Penetration Testing", "Secure Auth", "JWT", "OAuth"]
+    "languages": ["Java", "Python", "JavaScript/TypeScript", "Dart", "C", "C++", "C#", "PHP", "R", "SQL"],
+    "java": ["Spring Boot", "Spring MVC", "Spring Data JPA", "Hibernate", "Spring Security", "Maven", "JUnit", "Mockito"],
+    "python": ["Django", "Django REST Framework", "FastAPI", "Flask", "SQLAlchemy", "Pandas", "NumPy", "Scikit-learn"],
+    "backend": ["RESTful APIs", "Microservices-Architektur", "OOP", "SOLID-Prinzipien", "Entwurfsmuster", "RabbitMQ", "WebSockets", "JWT/OAuth"],
+    "database": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Datenbankdesign", "Abfrageoptimierung", "JPA/Hibernate", "Django ORM"],
+    "frontend": ["React.js", "HTML5", "CSS3", "Bootstrap", "Flutter", "Dart", "Firebase", "Responsives Design"],
+    "cloud": ["AWS (EC2, S3, RDS)", "Google Cloud Platform", "Docker", "Kubernetes", "CI/CD", "Git", "Postman", "JIRA"],
+    "other": ["Zahlungsgateways (Razorpay, Stripe, PayPal)", "Power BI", "Tableau", "NLP-Grundlagen", "Blockchain-Grundlagen"]
   },
   "coreCompetencies": "Kernkompetenzen",
+  "competencies": [
+    "Backend-Systemarchitektur",
+    "Microservices-Entwicklung",
+    "RESTful API-Design",
+    "Datenbankoptimierung",
+    "Cloud-Bereitstellung (AWS/GCP)",
+    "Containerisierung (Docker/Kubernetes)",
+    "Full-Stack-Entwicklung",
+    "Leistungsoptimierung"
+  ],
   "languageProficiency": "Sprachkenntnisse",
   "nativeFluent": "Muttersprache & Fließend",
   "intermediateBasic": "Mittelstufe & Grundkenntnisse",

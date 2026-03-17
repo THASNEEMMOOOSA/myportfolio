@@ -2,9 +2,9 @@
   "hero": {
     "firstName": "THASNEEM",
     "lastName": "VELLARAMPARA",
-    "title": "Senior Datenanalyst & Full-Stack-Entwickler",
-    "description1": "entwickelt datengestützte Lösungen",
-    "description2": "und skalierbare Anwendungen"
+    "title": "Softwareentwickler",
+    "description1": "entwickelt skalierbare Backend-Lösungen",
+    "description2": "und leistungsstarke Anwendungen"
   },
   "stats": {
     "experience": "Jahre Erfahrung",
@@ -17,17 +17,17 @@
     "careerGrowth": "Karriereentwicklung"
   },
   "featuredProject": {
-    "title": "Ausgezeichnetes Projekt: E-Commerce-Plattform",
-    "description": "Full-Stack-E-Commerce-Plattform mit Zahlungsintegration, Produktverwaltung und Analyse-Dashboard.",
-    "tech": ["Django", "React", "PostgreSQL", "Stripe", "Redis"],
+    "title": "Ausgezeichnetes Projekt: Distributed URL Shortener",
+    "description": "Hochleistungs-API mit 1M+ Weiterleitungen und <50ms Latenz, entwickelt mit Node.js und Redis-Caching.",
+    "tech": ["Node.js", "Express", "PostgreSQL", "Redis", "Docker", "AWS"],
     "metrics": {
       "uptime": "Verfügbarkeit",
-      "gateways": "Zahlungsarten"
+      "latency": "Latenz"
     }
   },
   "download": {
     "title": "Mehr erfahren?",
-    "description": "Laden Sie meinen ausführlichen Lebenslauf herunter, um meinen vollständigen Werdegang, Zertifikate und technische Fähigkeiten einzusehen.",
+    "description": "Laden Sie meinen ausführlichen Lebenslauf herunter.",
     "button": "Lebenslauf (PDF) herunterladen"
   }
 }

@@ -53,7 +53,7 @@ export default function Experience() {
         </div>
         <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-xl border border-gray-700 text-center">
           <Calendar className="w-6 h-6 text-green-400 mx-auto mb-2" />
-          <div className="text-2xl font-bold text-white">3+</div>
+          <div className="text-2xl font-bold text-white">4+</div>
           <div className="text-sm text-gray-400">{t('experience:stats.years')}</div>
         </div>
         <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-xl border border-gray-700 text-center">

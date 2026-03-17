@@ -1,62 +1,62 @@
 {
   "title": "Professional",
-  "subtitle": "Journey",
-  "description": "3+ years of experience in data analytics, full-stack development, and technical training",
+  "subtitle": "Experience",
+  "description": "4+ years of experience in backend development, microservices architecture, and full-stack solutions",
   "stats": {
     "roles": "Roles",
     "years": "Years",
-    "students": "Students",
+    "students": "Students Mentored",
     "achievements": "Achievements"
   },
   "award": "Award Winner",
   "experiences": {
     "senior": {
-      "role": "SENIOR DATA ANALYST & SOFTWARE DEVELOPER",
+      "role": "SOFTWARE DEVELOPER",
       "company": "OFSYS EDUCATIONS LLP",
       "location": "Kerala, India",
       "period": "February 2026 - Present",
       "achievements": [
-        "Leading advanced training programs in Python, SQL, Power BI, and Tableau",
-        "Delivering Python full-stack development using Django and Flask",
-        "Designing end-to-end analytics projects and full-stack solutions",
-        "Developing and optimizing ETL pipelines and data models",
-        "Mentoring 50+ students through structured assessments and project reviews"
+        "Architected scalable backend services using Python (Django, FastAPI), supporting 500+ concurrent users with <200ms response time",
+        "Optimized PostgreSQL queries, reducing API response time by 40% through indexing and Redis caching",
+        "Developed React.js frontend, improving mobile engagement by 30% and handling 10,000+ daily API requests",
+        "Containerized applications using Docker and deployed on AWS with CI/CD pipelines"
       ]
     },
     "trainer": {
-      "role": "DATA ANALYST & SOFTWARE DEVELOPER",
+      "role": "SOFTWARE DEVELOPER",
       "company": "BEAT CENTER OF EXCELLENCE",
       "location": "Malappuram, Kerala",
       "period": "2024 - January 2026",
       "achievements": [
-        "Conducted structured training sessions for 100+ students in data analytics",
-        "Delivered hands-on workshops on data cleaning and visualization techniques",
-        "Designed practical lab sessions for extracting business insights",
-        "Developed curriculum for advanced analytics courses"
+        "Achieved 90+ PageSpeed scores through performance optimization, increasing organic traffic by 40%",
+        "Developed full-stack solutions integrating WordPress with custom Python scripts for data processing",
+        "Built responsive, mobile-first UI components ensuring cross-browser compatibility"
       ]
     },
     "developer": {
-      "role": "FULL-STACK WEB DEVELOPER",
+      "role": "SOFTWARE DEVELOPER",
       "company": "IMAGECON INDIA PVT LTD",
       "location": "Salem, India",
       "period": "2022 - 2024",
       "achievements": [
-        "Engineered Python automation solutions for IoT device data processing",
-        "Architected server-side components using Django and Flask",
-        "Received 'Ultimate Team Player Award' for outstanding contributions",
-        "Led technical workshops on IoT architecture and web technologies"
+        "Developed microservices architecture using Java Spring Boot and RabbitMQ for asynchronous processing",
+        "Built RESTful APIs with Spring MVC, serving 10,000+ daily requests",
+        "Designed and optimized database schemas using JPA/Hibernate with PostgreSQL",
+        "Engineered cross-platform mobile applications using Flutter, achieving 5,000+ downloads with a 4.5★ rating",
+        "Integrated payment gateways (Razorpay, Stripe), processing transactions exceeding $50K",
+        "Mentored junior developers in Python and Java best practices"
       ]
     },
     "freelance": {
-      "role": "FREELANCE FULL-STACK & MOBILE DEVELOPER",
+      "role": "SOFTWARE DEVELOPER",
       "company": "Freelancer",
       "location": "Kerala, India",
       "period": "2022 - Present",
       "achievements": [
-        "Delivered 10+ customized web and mobile solutions for startups",
-        "Integrated secure payment systems (Razorpay, Stripe, PayPal)",
-        "Built cross-platform apps with Flutter and Firebase",
-        "Managed full development lifecycle from requirement to deployment"
+        "Developed Python automation scripts using Pandas and NumPy, saving 10+ hours per week",
+        "Built web scraping tools using BeautifulSoup and Selenium for automated data extraction",
+        "Delivered 10+ customized web and mobile solutions for startups and small businesses",
+        "Integrated secure payment systems (Razorpay, Stripe, PayPal)"
       ]
     },
     "intern": {
@@ -77,24 +77,24 @@
     "title": "Certifications & Achievements",
     "items": [
       {
+        "title": "Architecting with Google Compute Engine",
+        "desc": "Google Cloud Specialization",
+        "year": "2023"
+      },
+      {
+        "title": "VR/AR with Fusion 360 Workshop",
+        "desc": "Autodesk Certification",
+        "year": "2022"
+      },
+      {
         "title": "Ultimate Team Player Award",
         "desc": "IMAGECON India Pvt Ltd",
         "year": "2024"
       },
       {
-        "title": "2nd Place - Robotics Hackathon",
+        "title": "Second Place - Robotics Hackathon",
         "desc": "IEDC MESCE",
         "year": "2023"
-      },
-      {
-        "title": "Google Cloud Certification",
-        "desc": "Architecting with Google Compute Engine",
-        "year": "2023"
-      },
-      {
-        "title": "VR/AR Workshop Certification",
-        "desc": "Autodesk Fusion 360",
-        "year": "2022"
       }
     ]
   },

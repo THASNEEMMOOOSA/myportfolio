@@ -1,6 +1,6 @@
 {
   "title": "Professionelle Projekte",
-  "subtitle": "Unternehmenslösungen, die Full-Stack-Expertise, Datenanalysefähigkeiten und mobile Entwicklungskompetenz demonstrieren.",
+  "subtitle": "Unternehmenslösungen mit Fokus auf Backend-Expertise, Microservices-Architektur und Full-Stack-Entwicklung.",
   "stats": {
     "total": "Projekte insgesamt",
     "technologies": "Technologien",
@@ -13,10 +13,42 @@
     "enterprise": "Unternehmen",
     "analytics": "Analytik",
     "mobile": "Mobil",
-    "web": "Webanwendung"
+    "web": "Webanwendung",
+    "backend": "Backend",
+    "realtime": "Echtzeit",
+    "ai": "KI/ML",
+    "microservices": "Microservices"
   },
   "featured": "Ausgezeichnet",
   "projects": {
+    "urlShortener": {
+      "title": "Distributed URL Shortener",
+      "description": "Hochleistungs-URL-Kürzungsdienst mit Analyse-Dashboard.",
+      "longDesc": "Entwicklung einer Hochleistungs-API mit 1M+ Weiterleitungen und <50ms Latenz. Reduzierung der Datenbanklast um 80% durch Redis-Caching. Erstellung eines Analyse-Dashboards für Klick-Tracking und Geo-Analyse.",
+      "tech": ["Node.js", "Express.js", "PostgreSQL", "Redis", "Docker", "AWS"],
+      "metrics": ["1M+ Weiterleitungen", "<50ms Latenz", "80% Cache-Treffer"]
+    },
+    "collabEditor": {
+      "title": "Echtzeit-Code-Editor",
+      "description": "WebSocket-basierte Plattform für gemeinsames Programmieren.",
+      "longDesc": "Implementierung von WebSocket-basierter Echtzeit-Zusammenarbeit für 100+ gleichzeitige Nutzer. Entwicklung synchronisierter Bearbeitungs- und Live-Update-Funktionen mit Operation Transformation.",
+      "tech": ["React", "TypeScript", "Node.js", "Socket.io", "MongoDB", "Docker"],
+      "metrics": ["100+ Nutzer", "Echtzeit-Sync", "OT-Algorithmus"]
+    },
+    "resumeAnalyzer": {
+      "title": "KI-Lebenslauf-Analyse",
+      "description": "NLP-gestützte Lebenslaufanalyse und Job-Matching.",
+      "longDesc": "Entwicklung eines FastAPI-Backends für asynchrone PDF-Verarbeitung und semantische Analyse mit NLP-APIs. Erstellung eines interaktiven Dashboards mit Next.js für Lebenslauf-Einblicke.",
+      "tech": ["Next.js", "Python", "FastAPI", "PostgreSQL", "NLP APIs", "Docker"],
+      "metrics": ["85% Treffergenauigkeit", "<2s Verarbeitung", "Semantische Suche"]
+    },
+    "microservicesEcom": {
+      "title": "Microservices E-Commerce",
+      "description": "Skalierbare E-Commerce-Plattform mit Microservices-Architektur.",
+      "longDesc": "Entwurf einer Microservices-Architektur mit asynchroner Kommunikation über RabbitMQ. Entwicklung von REST-APIs für Produktkatalog, Warenkorb und Bestellungen. Bereitstellung containerisierter Dienste mit Docker und Kubernetes auf AWS.",
+      "tech": ["Java", "Spring Boot", "PostgreSQL", "RabbitMQ", "Docker", "Kubernetes", "AWS"],
+      "metrics": ["500+ Nutzer", "Asynchrone Verarbeitung", "Auto-Scaling"]
+    },
     "ecommerce": {
       "title": "E-Commerce-Plattform",
       "description": "Full-Stack-E-Commerce-Lösung mit Zahlungsintegration, Echtzeit-Inventar und Analyse-Dashboard.",
@@ -26,57 +58,57 @@
     },
     "iot": {
       "title": "IoT-Datenüberwachungssystem",
-      "description": "Echtzeit-Überwachungs- und Analyseplattform für IoT-Geräte in industriellen Anwendungen.",
-      "longDesc": "Entwicklung eines skalierbaren Systems zur Erfassung, Verarbeitung und Visualisierung von Daten von 1000+ IoT-Geräten in Echtzeit. Bau kundenspezifischer WebSocket-APIs für Gerätekommunikation, Implementierung von Anomalieerkennungsalgorithmen und Erstellung interaktiver Überwachungs-Dashboards.",
-      "tech": ["Python", "Flask", "PostgreSQL", "WebSocket", "Chart.js", "MQTT", "InfluxDB"],
+      "description": "Echtzeit-Überwachungs- und Analyseplattform für IoT-Geräte.",
+      "longDesc": "Entwicklung eines skalierbaren Systems zur Erfassung, Verarbeitung und Visualisierung von Daten von 1000+ IoT-Geräten in Echtzeit. Implementierung von WebSocket-APIs und Anomalieerkennungsalgorithmen.",
+      "tech": ["Python", "Flask", "PostgreSQL", "WebSocket", "MQTT", "InfluxDB"],
       "metrics": ["1000+ Geräte", "<100ms Latenz", "99,5% Genauigkeit"]
     },
     "pos": {
       "title": "POS-Abrechnungssystem",
-      "description": "Enterprise-Einzelhandelsverwaltungssystem mit Bestandsverfolgung und erweiterter Analytik.",
-      "longDesc": "Erstellung eines umfassenden POS-Systems für Einzelhandelsketten mit Bestandsverwaltung, automatisierter Abrechnung, dynamischer Steuerberechnung, Rabattverarbeitung, Lieferantenverwaltung und detaillierten Umsatzberichten mit vorausschauenden Nachbestellungsbenachrichtigungen.",
-      "tech": ["Django", "React", "PostgreSQL", "Tailwind", "Redux", "Redis", "Nginx"],
+      "description": "Enterprise-Einzelhandelsverwaltungssystem mit Bestandsverfolgung.",
+      "longDesc": "Erstellung eines umfassenden POS-Systems für Einzelhandelsketten mit Bestandsverwaltung, automatisierter Abrechnung, dynamischer Steuerberechnung und detaillierten Umsatzberichten.",
+      "tech": ["Django", "React", "PostgreSQL", "Tailwind", "Redux", "Redis"],
       "metrics": ["40% schnellere Abrechnung", "500+ Transaktionen/Tag", "98% Genauigkeit"]
     },
     "analytics": {
       "title": "Umsatzanalyse-Dashboard",
       "description": "Enterprise-BI-Dashboard für Umsatzverfolgung und -prognose.",
-      "longDesc": "Entwurf und Implementierung eines umfassenden Umsatzanalyse-Dashboards mit Integration mehrerer Datenquellen (SQL, Excel, APIs). Funktionen umfassen Echtzeit-KPI-Verfolgung, prädiktive Analytik mit ML-Modellen, benutzerdefinierte Berichterstellung und automatisierte Einblicke.",
-      "tech": ["Power BI", "SQL", "Python", "Excel", "Tableau", "DAX", "Power Query"],
+      "longDesc": "Entwurf und Implementierung eines umfassenden Umsatzanalyse-Dashboards mit Integration mehrerer Datenquellen. Echtzeit-KPI-Verfolgung und prädiktive Analytik.",
+      "tech": ["Power BI", "SQL", "Python", "Excel", "Tableau"],
       "metrics": ["15+ KPIs", "5 Datenquellen", "Tägliche Updates"]
     },
     "mobile": {
       "title": "Mobile Zahlungsanwendung",
-      "description": "Plattformübergreifende mobile App mit sicheren In-App-Zahlungen und Echtzeit-Synchronisierung.",
-      "longDesc": "Entwicklung einer Flutter-basierten mobilen Anwendung für Android/iOS mit integrierter Zahlungsabwicklung (Stripe, Razorpay), biometrischer Authentifizierung, Echtzeit-Datensynchronisierung mit Firebase und Offline-First-Architektur für nahtlose Benutzererfahrung.",
-      "tech": ["Flutter", "Dart", "Firebase", "Stripe", "GetX", "SQLite", "BLoC"],
+      "description": "Plattformübergreifende mobile App mit sicheren In-App-Zahlungen.",
+      "longDesc": "Entwicklung einer Flutter-basierten App für Android/iOS mit Stripe-Integration, biometrischer Authentifizierung und Firebase-Synchronisierung.",
+      "tech": ["Flutter", "Dart", "Firebase", "Stripe", "GetX"],
       "metrics": ["2 Plattformen", "Biometrisch sicher", "Offline-Modus"]
     },
     "employee": {
       "title": "Mitarbeiterverwaltungssystem",
-      "description": "Umfassende HR-Management-Plattform mit rollenbasierter Zugriffskontrolle und Gehaltsabrechnungsintegration.",
-      "longDesc": "Entwicklung eines voll ausgestatteten Mitarbeiterverwaltungssystems mit sicheren CRUD-Operationen, rollenbasierter Zugriffskontrolle (RBAC), Anwesenheitsverfolgung mit Gesichtserkennung, Gehaltsabrechnungsintegration, Leistungsbeurteilungsworkflows und automatisierter Berichterstellung.",
-      "tech": ["Django", "MySQL", "React", "JWT", "Bootstrap", "Celery", "Redis"],
+      "description": "HR-Management-Plattform mit rollenbasierter Zugriffskontrolle.",
+      "longDesc": "Entwicklung eines umfassenden Mitarbeiterverwaltungssystems mit CRUD-Operationen, RBAC, Anwesenheitsverfolgung und Gehaltsabrechnungsintegration.",
+      "tech": ["Django", "MySQL", "React", "JWT", "Bootstrap"],
       "metrics": ["RBAC", "500+ Nutzer", "Cloud-basiert"]
     },
     "realestate": {
       "title": "Immobilienplattform",
-      "description": "Immobilienverwaltungs- und Listings-Plattform mit erweiterter Suche und virtuellen Touren.",
-      "longDesc": "Entwicklung einer Immobilienplattform mit Immobilienlistings, erweiterten Suchfiltern, interaktiven Karten, Integration virtueller Touren, Agenten-Dashboards, Lead-Management und automatisierten E-Mail-Benachrichtigungen für neue Listings.",
-      "tech": ["Django", "React", "PostgreSQL", "Mapbox", "Elasticsearch", "Redis"],
+      "description": "Immobilienverwaltung mit erweiterter Suche und virtuellen Touren.",
+      "longDesc": "Entwicklung einer Immobilienplattform mit Listings, erweiterten Suchfiltern, interaktiven Karten und virtuellen Touren.",
+      "tech": ["Django", "React", "PostgreSQL", "Mapbox", "Elasticsearch"],
       "metrics": ["1000+ Listings", "Erweiterte Suche", "Virtuelle Touren"]
     },
     "task": {
       "title": "Aufgabenverwaltungs-App",
-      "description": "Produktivitätsorientierte mobile App mit Aufgabenorganisation und Teamzusammenarbeit.",
-      "longDesc": "Entwicklung einer plattformübergreifenden Aufgabenverwaltungsanwendung mit Aufgabenerstellung, Kategorisierung, Prioritätseinstellung, Terminverfolgung, Teamzusammenarbeit, Echtzeit-Updates und Offline-Datenspeicherung mit Cloud-Synchronisierung.",
-      "tech": ["Flutter", "Dart", "Firebase", "SQLite", "Provider", "Push Notifications"],
+      "description": "Produktivitäts-App mit Aufgabenorganisation und Teamarbeit.",
+      "longDesc": "Entwicklung einer plattformübergreifenden Aufgabenverwaltung mit Offline-First-Architektur und Echtzeit-Synchronisierung.",
+      "tech": ["Flutter", "Dart", "Firebase", "SQLite", "Provider"],
       "metrics": ["Offline-First", "Echtzeit-Sync", "Teamarbeit"]
     }
   },
   "cta": {
     "title": "Interesse an einer Zusammenarbeit?",
     "description": "Ich bin derzeit verfügbar für freiberufliche Projekte und Festanstellungen.",
-    "button": "Ihr Projekt besprechen"
+    "button": "Projekt besprechen"
   }
 }

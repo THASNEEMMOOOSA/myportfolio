@@ -2,9 +2,9 @@
   "hero": {
     "firstName": "THASNEEM",
     "lastName": "VELLARAMPARA",
-    "title": "Senior Data Analyst & Full-Stack Developer",
-    "description1": "crafting data-driven solutions",
-    "description2": "and scalable applications"
+    "title": "Software Developer",
+    "description1": "crafting scalable backend solutions",
+    "description2": "and high-performance applications"
   },
   "stats": {
     "experience": "Years Experience",
@@ -17,12 +17,12 @@
     "careerGrowth": "Career Growth"
   },
   "featuredProject": {
-    "title": "Featured Project: E-Commerce Platform",
-    "description": "Full-stack e-commerce platform with payment integration, product management, and analytics dashboard.",
-    "tech": ["Django", "React", "PostgreSQL", "Stripe", "Redis"],
+    "title": "Featured Project: Distributed URL Shortener",
+    "description": "High-performance API handling 1M+ redirects with <50ms latency, built with Node.js and Redis caching.",
+    "tech": ["Node.js", "Express", "PostgreSQL", "Redis", "Docker", "AWS"],
     "metrics": {
       "uptime": "Uptime",
-      "gateways": "Gateways"
+      "latency": "Latency"
     }
   },
   "download": {

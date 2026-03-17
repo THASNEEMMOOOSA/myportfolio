@@ -1,11 +1,11 @@
 {
   "title": "Professional Projects",
-  "subtitle": "Enterprise-grade solutions demonstrating full-stack expertise, data analytics capabilities, and mobile development proficiency.",
+  "subtitle": "Enterprise-grade solutions demonstrating backend expertise, microservices architecture, and full-stack development proficiency.",
   "stats": {
     "total": "Total Projects",
     "technologies": "Technologies",
     "categories": "Categories",
-    "years": "Years Delivering"
+    "years": "Years Experience"
   },
   "categories": {
     "fullstack": "Full-Stack",
@@ -13,10 +13,42 @@
     "enterprise": "Enterprise",
     "analytics": "Analytics",
     "mobile": "Mobile",
-    "web": "Web Application"
+    "web": "Web Application",
+    "backend": "Backend",
+    "realtime": "Real-Time",
+    "ai": "AI/ML",
+    "microservices": "Microservices"
   },
   "featured": "Featured",
   "projects": {
+    "urlShortener": {
+      "title": "Distributed URL Shortener",
+      "description": "High-performance URL shortening service with analytics dashboard.",
+      "longDesc": "Designed high-performance API handling 1M+ redirects with <50ms latency. Reduced database load by 80% using Redis caching. Built analytics dashboard for click tracking and geo-analysis.",
+      "tech": ["Node.js", "Express.js", "PostgreSQL", "Redis", "Docker", "AWS"],
+      "metrics": ["1M+ Redirects", "<50ms Latency", "80% Cache Hit Rate"]
+    },
+    "collabEditor": {
+      "title": "Real-Time Collaborative Code Editor",
+      "description": "WebSocket-based collaborative coding platform with syntax highlighting.",
+      "longDesc": "Implemented WebSocket-based real-time collaboration for 100+ concurrent users. Developed synchronized editing and live update features with operational transformation for conflict resolution.",
+      "tech": ["React", "TypeScript", "Node.js", "Socket.io", "MongoDB", "Docker"],
+      "metrics": ["100+ Concurrent Users", "Real-time Sync", "OT Algorithm"]
+    },
+    "resumeAnalyzer": {
+      "title": "AI Resume Analyzer & Job Matcher",
+      "description": "NLP-powered resume analysis and job recommendation system.",
+      "longDesc": "Developed FastAPI backend for asynchronous PDF processing and semantic analysis using NLP APIs. Built interactive dashboard using Next.js for resume insights and job matching.",
+      "tech": ["Next.js", "Python", "FastAPI", "PostgreSQL", "NLP APIs", "Docker"],
+      "metrics": ["85% Match Accuracy", "<2s Processing", "Semantic Search"]
+    },
+    "microservicesEcom": {
+      "title": "Microservices E-Commerce Platform",
+      "description": "Scalable e-commerce platform with microservices architecture.",
+      "longDesc": "Designed microservices architecture with asynchronous communication using RabbitMQ. Developed REST APIs for product catalog, cart, and order management. Deployed containerized services using Docker and Kubernetes on AWS.",
+      "tech": ["Java", "Spring Boot", "PostgreSQL", "RabbitMQ", "Docker", "Kubernetes", "AWS", "React"],
+      "metrics": ["500+ Concurrent Users", "Async Processing", "Auto-scaling"]
+    },
     "ecommerce": {
       "title": "E-Commerce Platform",
       "description": "Full-stack e-commerce solution with payment integration, real-time inventory, and analytics dashboard.",
@@ -28,7 +60,7 @@
       "title": "IoT Data Monitoring System",
       "description": "Real-time IoT device monitoring and analytics platform for industrial applications.",
       "longDesc": "Developed a scalable system to collect, process, and visualize data from 1000+ IoT devices in real-time. Built custom WebSocket APIs for device communication, implemented anomaly detection algorithms, and created interactive monitoring dashboards.",
-      "tech": ["Python", "Flask", "PostgreSQL", "WebSocket", "Chart.js", "MQTT", "InfluxDB"],
+      "tech": ["Python", "Flask", "PostgreSQL", "WebSocket", "MQTT", "InfluxDB", "Chart.js"],
       "metrics": ["1000+ Devices", "<100ms Latency", "99.5% Accuracy"]
     },
     "pos": {
@@ -55,14 +87,14 @@
     "employee": {
       "title": "Employee Management System",
       "description": "Comprehensive HR management platform with role-based access and payroll integration.",
-      "longDesc": "Developed a full-featured employee management system featuring secure CRUD operations, role-based access control (RBAC), attendance tracking with facial recognition, payroll integration, performance review workflows, and automated report generation.",
+      "longDesc": "Developed a full-featured employee management system featuring secure CRUD operations, role-based access control (RBAC), attendance tracking, payroll integration, performance review workflows, and automated report generation.",
       "tech": ["Django", "MySQL", "React", "JWT", "Bootstrap", "Celery", "Redis"],
       "metrics": ["RBAC", "500+ Users", "Cloud Deployed"]
     },
     "realestate": {
       "title": "Real Estate Listing Platform",
       "description": "Property management and listing platform with advanced search and virtual tours.",
-      "longDesc": "Built a real estate platform featuring property listings, advanced search filters, interactive maps, virtual tour integration, agent dashboards, lead management, and automated email notifications for new listings matching user criteria.",
+      "longDesc": "Built a real estate platform featuring property listings, advanced search filters, interactive maps, virtual tour integration, agent dashboards, lead management, and automated email notifications.",
       "tech": ["Django", "React", "PostgreSQL", "Mapbox", "Elasticsearch", "Redis"],
       "metrics": ["1000+ Listings", "Advanced Search", "Virtual Tours"]
     },

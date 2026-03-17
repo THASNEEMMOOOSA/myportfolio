@@ -1,8 +1,40 @@
 import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
-import { ExternalLink, Github, Calendar, TrendingUp, ShoppingCart, Activity, CreditCard, BarChart3, Smartphone, Users, Globe, Layers, Award } from 'lucide-react';
+import { ExternalLink, Github, Calendar, TrendingUp, ShoppingCart, Activity, CreditCard, BarChart3, Smartphone, Users, Globe, Layers, Award , Link, Code, Cpu, Server} from 'lucide-react';
 
 const projects = [
+   {
+    key: 'urlShortener',
+    icon: Link, // You'll need to import Link from lucide-react
+    iconColor: "text-blue-400",
+    category: "backend",
+    featured: true,
+    link: "#" // Add your demo link if available
+  },
+  // NEW PROJECT 2: Real-Time Collaborative Code Editor
+  {
+    key: 'collabEditor',
+    icon: Code, // You'll need to import Code from lucide-react
+    iconColor: "text-green-400",
+    category: "realtime",
+    featured: true
+  },
+  // NEW PROJECT 3: AI Resume Analyzer & Job Matcher
+  {
+    key: 'resumeAnalyzer',
+    icon: Cpu, // You'll need to import Cpu from lucide-react
+    iconColor: "text-purple-400",
+    category: "ai",
+    featured: true
+  },
+  // NEW PROJECT 4: Microservices E-Commerce Platform
+  {
+    key: 'microservicesEcom',
+    icon: Server, // You'll need to import Server from lucide-react
+    iconColor: "text-orange-400",
+    category: "microservices",
+    featured: true
+  },
   {
     key: 'ecommerce',
     icon: ShoppingCart,
@@ -77,29 +109,28 @@ export default function Projects() {
 
       {/* Stats Summary */}
       <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1 }}
-        className="grid grid-cols-2 md:grid-cols-4 gap-4"
-      >
-        <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-xl border border-gray-700 text-center">
-          <div className="text-2xl font-bold text-blue-400">{projects.length}</div>
-          <div className="text-sm text-gray-400">{t('stats.total')}</div>
-        </div>
-        <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-xl border border-gray-700 text-center">
-          <div className="text-2xl font-bold text-green-400">8</div>
-          <div className="text-sm text-gray-400">{t('stats.technologies')}</div>
-        </div>
-        <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-xl border border-gray-700 text-center">
-          <div className="text-2xl font-bold text-purple-400">5</div>
-          <div className="text-sm text-gray-400">{t('stats.categories')}</div>
-        </div>
-        <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-xl border border-gray-700 text-center">
-          <div className="text-2xl font-bold text-yellow-400">3+</div>
-          <div className="text-sm text-gray-400">{t('stats.years')}</div>
-        </div>
-      </motion.div>
-
+  initial={{ opacity: 0, y: 20 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.1 }}
+  className="grid grid-cols-2 md:grid-cols-4 gap-4"
+>
+  <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-xl border border-gray-700 text-center">
+    <div className="text-2xl font-bold text-blue-400">{projects.length}</div>
+    <div className="text-sm text-gray-400">{t('stats.total')}</div>
+  </div>
+  <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-xl border border-gray-700 text-center">
+    <div className="text-2xl font-bold text-green-400">30+</div> {/* Changed from 8 to 30+ */}
+    <div className="text-sm text-gray-400">{t('stats.technologies')}</div>
+  </div>
+  <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-xl border border-gray-700 text-center">
+    <div className="text-2xl font-bold text-purple-400">8</div> {/* Changed from 5 to 8 */}
+    <div className="text-sm text-gray-400">{t('stats.categories')}</div>
+  </div>
+  <div className="bg-gray-800/50 backdrop-blur-sm p-4 rounded-xl border border-gray-700 text-center">
+    <div className="text-2xl font-bold text-yellow-400">4+</div> {/* Changed from 3+ to 4+ */}
+    <div className="text-sm text-gray-400">{t('stats.years')}</div>
+  </div>
+</motion.div>
       {/* Projects Grid */}
       <div className="grid grid-cols-1 gap-6">
         {projects.map((project, index) => {
